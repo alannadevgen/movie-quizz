@@ -1,0 +1,47 @@
+CREATE TABLE movies (
+movie_id INT NOT NULL PRIMARY KEY,
+title VARCHAR(500),
+year INT,
+genre VARCHAR(50),
+duration INT,
+avg_vote NUMERIC,
+critics_vote NUMERIC,
+public_vote NUMERIC,
+total_votes INT);
+
+CREATE TABLE actors (
+id INT NOT NULL PRIMARY KEY,
+name VARCHAR(500));
+
+CREATE TABLE directors (
+id INT NOT NULL PRIMARY KEY,
+name VARCHAR(500));
+
+CREATE TABLE countries (
+id INT NOT NULL PRIMARY KEY,
+name VARCHAR(500));
+
+CREATE TABLE play(
+movie_id INT,
+actor_id INT,
+CONSTRAINT fk_movie_id FOREIGN KEY(movie_id) REFERENCES movies(movie_id),
+CONSTRAINT fk_actor_id FOREIGN KEY(actor_id) REFERENCES actors(id)
+);
+
+CREATE TABLE manage(
+movie_id INT,
+director_id INT,
+CONSTRAINT fk_movie_id FOREIGN KEY(movie_id) REFERENCES movies(movie_id),
+CONSTRAINT fk_director_id FOREIGN KEY(director_id) REFERENCES directors(id)
+);
+
+CREATE TABLE come_from(
+movie_id INT,
+country_id INT,
+CONSTRAINT fk_movie_id FOREIGN KEY(movie_id) REFERENCES movies(movie_id),
+CONSTRAINT fk_country_id FOREIGN KEY(country_id) REFERENCES countries(id)
+);
+
+
+
+

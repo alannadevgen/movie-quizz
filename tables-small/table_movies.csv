@@ -1,0 +1,1001 @@
+movie_id,title,year,genre,duration,avg_vote,critics_vote,public_vote,total_votes
+39520,Rembrandt's J'accuse,2008,Documentary,86,10.0,10.0,10.0,4
+25980,The Godfather Trilogy: 1901-1980,1992,Drama,583,9.8,10.0,10.0,33
+46192,Xiao cheng zhi chun,1948,Drama,93,9.6,10.0,9.0,13
+139593,"La commune (Paris, 1871)",2000,Drama,345,9.6,10.0,9.0,5
+171255,Geomeun meori,1964,Noir,108,9.5,9.0,10.0,3
+186001,A Metamorfose dos Pássaros,2020,Documentary,100,9.5,9.0,10.0,3
+7042,Modern Times,1936,Comedy,83,9.4,9.74,9.0,403
+16567,Greed,1924,Drama,100,9.4,9.85,9.0,59
+66817,Ashes and Snow,2005,Documentary,63,9.4,10.0,9.0,8
+7753,Sunset Boulevard,1950,Drama,100,9.4,9.51,9.0,509
+524,Antologia dada e surrealista,1923,Fantasy,100,9.4,9.33,9.0,12
+18173,Ordet,1955,Drama,119,9.4,9.71,9.0,165
+3831,Ladri di biciclette,1948,Drama,90,9.4,9.78,9.0,463
+3963,City Lights,1931,Drama,87,9.4,9.46,9.0,299
+5648,Citizen Kane,1941,Drama,119,9.3,9.46,9.0,533
+4470,The Kid,1921,Comedy,51,9.3,9.44,9.0,300
+27984,Die Zweite Heimat - Chronik einer Jugend,1992,Drama,1525,9.3,9.25,9.0,21
+2686,The Gold Rush,1925,Comedy,60,9.3,9.38,9.0,259
+144016,The Blue Bird,1918,Fantasy,75,9.3,9.0,10.0,6
+46361,Onna ga kaidan wo agaru toki,1960,Drama,111,9.3,10.0,9.0,13
+12730,Paths of Glory,1957,War,86,9.3,9.4,9.0,487
+41896,Spiklenci slasti,1996,Animation,75,9.3,10.0,9.0,14
+10559,Sherlock Junior,1924,Comedy,42,9.3,9.43,9.0,132
+23395,Shichi-nin no Samurai,1954,Adventure,200,9.3,9.54,9.0,326
+33186,Le trois couronnes du matelot,1983,Drama,117,9.3,10.0,9.0,12
+23112,Ugetsu Monogatari,1953,Drama,97,9.3,9.63,9.0,148
+5580,Psycho,1960,Thriller,108,9.2,9.36,9.0,733
+23023,Chikamatsu Monogatari,1954,Drama,110,9.2,9.29,9.0,59
+16584,La maman et la putain,1973,Comedy,208,9.2,9.67,9.0,41
+1963,2001: A Space Odyssey,1968,Fantasy,141,9.2,9.33,9.0,858
+4991,The Godfather,1972,Drama,178,9.2,9.22,9.0,755
+18172,Vredens Dag,1943,Drama,94,9.2,9.68,9.0,148
+27908,Seppuku,1962,Drama,135,9.2,9.5,9.0,90
+19755,Tokyo monogatari,1953,Drama,136,9.2,9.36,9.0,174
+185595,Ningen no jôken V-VI,1961,War,190,9.1,8.67,10.0,10
+25986,Die Zweite Heimat - Chronik einer Jugend - Das Spiel mit der Freiheit,1992,Drama,105,9.1,9.0,9.0,10
+86000,Holubice,1960,Drama,76,9.1,9.5,9.0,5
+7498,Umberto D.,1951,Drama,90,9.1,9.42,9.0,314
+12135,Sátántángo,1994,Drama,450,9.1,9.44,9.0,85
+2767,Rear Window,1954,Thriller,112,9.1,9.11,9.0,645
+10359,Freaks,1932,Horror,64,9.1,9.24,9.0,317
+7119,Witness for the Prosecution,1957,Thriller,114,9.1,9.11,9.0,283
+14549,Sunrise: A Song of Two Humans,1927,Drama,97,9.1,9.43,9.0,144
+4992,The Godfather Part II,1974,Drama,185,9.1,9.32,9.0,561
+5082,La passion de Jeanne d'Arc,1928,Drama,97,9.1,9.33,9.0,160
+28850,Guling jie shaonian sha ren shijian,1991,Drama,237,9.1,9.5,9.0,14
+3232,The Great Dictator,1940,Comedy,118,9.1,9.0,9.0,415
+17065,A Clockwork Orange,1971,Grotesque,137,9.1,9.33,9.0,915
+19839,Metropolis,1927,Fantasy,87,9.1,9.31,9.0,326
+14603,Banshun,1949,Drama,108,9.1,9.54,9.0,109
+7025,Taxi Driver,1976,Drama,110,9.1,9.29,9.0,775
+4480,Monsieur Verdoux,1947,Drama,123,9.1,9.43,9.0,205
+2233,Vertigo,1958,Thriller,128,9.1,9.1,9.0,598
+2973,Das kabinett des Doktor Caligari,1920,Horror,78,9.1,9.23,9.0,238
+10948,La grande guerra,1959,War,129,9.1,9.19,9.0,319
+1792,Ivan Groznyy. Skaz vtoroy: Boyarskiy zagovor,1945,Biography,95,9.1,9.4,9.0,44
+16903,Les 400 coups,1959,Drama,93,9.1,9.26,9.0,442
+26035,Zemlja,1930,Drama,84,9.1,9.73,9.0,39
+51,Some Like It Hot,1959,Comedy,120,9.1,9.38,9.0,543
+6476,The Shining,1980,Horror,119,9.1,9.29,9.0,1009
+27808,Ikiru,1952,Drama,143,9.1,9.26,9.0,144
+2321,Double Indemnity,1944,Noir,106,9.1,9.19,9.0,272
+27838,Sanshô Dayû,1954,Drama,119,9.1,9.64,9.0,90
+23260,Rashômon,1950,Drama,88,9.1,9.23,9.0,279
+2676,Faust,1926,Drama,85,9.1,9.18,9.0,56
+27913,Genroku chushingura,1941,Drama,223,9.0,9.33,9.0,37
+10423,The Wind,1928,Drama,75,9.0,8.91,9.0,35
+75014,"Diaries, Sketch and Notes, also known as Walden",1969,Documentary,177,9.0,9.5,9.0,4
+59864,Cama adentro,2004,Drama,83,9.0,8.0,10.0,3
+18380,La femme défendue,1997,Comedy,100,9.0,8.0,10.0,3
+27927,Pather Panchali,1955,Drama,115,9.0,9.17,9.0,53
+25994,Die Zweite Heimat - Chronik einer Jugend - Ansgar Tod,1992,Drama,100,9.0,8.33,10.0,10
+59538,Fanny,2013,Drama,102,9.0,8.0,10.0,3
+40390,Nang mai,2009,Drama,109,9.0,10.0,8.0,4
+33173,None Shall Escape,1944,Drama,85,9.0,9.5,9.0,6
+27929,Apu Sansar,1959,Drama,106,9.0,9.22,9.0,30
+12849,Pulp Fiction,1994,Gangster,154,9.0,9.12,9.0,1056
+77342,Baby Face,1933,Drama,76,9.0,10.0,8.0,6
+12091,La grande illusion,1937,War,117,9.0,9.46,9.0,184
+6186,The Red Shoes,1948,Drama,133,9.0,9.33,9.0,123
+127956,Gardiens de phare,1929,Drama,82,9.0,9.0,9.0,7
+14963,La métamorphose des cloportes,1965,Thriller,98,9.0,8.0,10.0,3
+28817,Xia dao Gao Fei,1993,Action,96,9.0,10.0,8.0,3
+48703,Le pont des Arts,2004,Drama,126,9.0,8.0,10.0,3
+7141,The Last Command,1928,Drama,91,9.0,8.86,9.0,27
+8395,The Deer Hunter,1978,Drama,183,9.0,9.04,9.0,628
+7866,The Taking of Flight 847,1988,Drama,100,9.0,8.0,10.0,3
+4741,"Nosferatu, eine Symphonie des Grauens",1922,Horror,80,9.0,9.28,9.0,276
+80276,Meurtrière,2015,Sperimental,60,9.0,9.0,9.0,5
+39616,Die Teufel von Loudun,1969,Musical,108,9.0,8.0,10.0,3
+24235,Pasazerka,1963,Drama,62,9.0,9.2,9.0,44
+6984,Tabù,1931,Drama,80,9.0,9.15,9.0,38
+8585,Touch of Evil,1958,Noir,104,9.0,9.4,9.0,365
+36068,Vyssí princip,1960,Drama,104,9.0,8.0,10.0,3
+135484,Edvard Munch,1974,Biography,210,9.0,9.0,9.0,4
+46571,Coeur fidèle,1923,Drama,87,9.0,9.5,9.0,12
+32535,Apa,1966,Drama,87,9.0,8.0,10.0,3
+9205,La ronde,1950,Comedy,97,9.0,9.18,9.0,42
+50994,Ha-Sippur Shel Yossi,2012,Drama,83,9.0,8.0,10.0,3
+2577,All About Eve,1950,Comedy,130,9.0,9.46,9.0,263
+10450,Getting Out,1994,Drama,120,9.0,8.0,10.0,3
+6025,Rocco e i suoi fratelli,1960,Drama,180,9.0,9.41,9.0,286
+2957,The Grapes of Wrath,1940,Drama,118,9.0,9.05,9.0,171
+6040,Roma città aperta,1945,Drama,98,9.0,9.52,8.0,416
+8629,Yol,1981,Drama,109,9.0,9.0,9.0,38
+25957,84C MoPic,1989,War,95,9.0,10.0,8.0,14
+22041,Abendland,1999,Drama,140,9.0,9.0,9.0,3
+27875,Un condamné à mort s'est échappé,1956,Drama,95,9.0,9.22,9.0,128
+868,Barry Lyndon,1975,Drama,184,9.0,9.18,9.0,582
+1152,Once Upon a Time in America,1984,Drama,220,9.0,9.03,9.0,771
+56304,Jing wu ying xiong,1994,Action,103,9.0,10.0,8.0,8
+24646,Apocalypse Now: Redux,2000,War,200,8.9,8.88,9.0,372
+3378,Heimat: Eine Chronik in elf Teilen - Die Liebe der Soldaten,1984,Drama,59,8.9,9.0,9.0,13
+5055,12 Angry Men,1957,Drama,95,8.9,8.94,9.0,388
+4451,H. M. Pulham Esquire,1940,Comedy,120,8.9,8.67,9.0,10
+60353,Die andere Heimat - Chronik einer Sehnsucht,2013,Drama,220,8.9,9.18,9.0,35
+4005,M - Eine Stadt sucht einen Mörder,1931,Drama,99,8.9,8.97,9.0,300
+15926,The Apartment,1960,Comedy,125,8.9,9.06,9.0,351
+27797,Saikaku ichidai onna,1952,Drama,136,8.9,9.38,8.0,97
+8911,Dekalog ieden-dziesiec,1988,Drama,560,8.9,9.18,9.0,73
+24957,San duk bei do,1971,Action,100,8.9,10.0,8.0,15
+20896,Det sjunde inseglet,1957,Drama,96,8.9,9.14,9.0,414
+3025,Germania anno zero,1948,Drama,78,8.9,9.3,8.0,174
+9277,Full Metal Jacket,1987,War,116,8.9,9.0,9.0,774
+10241,Dr. Jekyll and Mr. Hyde,1932,Horror,90,8.9,9.0,9.0,50
+7802,It's a Wonderful Life,1946,Comedy,129,8.9,8.97,9.0,370
+10526,I Am a Fugitive from a Chain Gang,1932,Drama,90,8.9,8.89,9.0,43
+27966,Campanadas de medianoche,1966,Drama,119,8.9,9.0,9.0,71
+25055,Peter Ibbetson,1935,Romantic,88,8.9,9.1,9.0,42
+6863,"Vampyr, l'etrange aventure de David Gray",1932,Horror,70,8.9,9.31,9.0,148
+28111,Die Nibelungen,1924,Drama,237,8.9,9.22,9.0,35
+27970,Krajobraz po bitwe,1970,Drama,109,8.9,9.5,8.0,7
+14548,Limelight,1952,Drama,144,8.9,9.0,9.0,194
+2194,La dolce vita,1960,Drama,178,8.9,9.53,8.0,443
+11008,Il sorpasso,1962,Comedy,108,8.9,9.11,9.0,490
+9260,Le plaisir,1951,Comedy,93,8.9,9.0,9.0,56
+25993,Die Zweite Heimat - Chronik einer Jugend - Das Ende der Zukunft,1992,Drama,132,8.9,8.33,10.0,7
+26125,Bronenosec Potëmkin,1925,Drama,67,8.9,9.35,8.0,201
+9141,The Asphalt Jungle,1950,Noir,112,8.9,9.22,9.0,176
+13556,Rosemary's Baby,1968,Horror,136,8.9,9.18,9.0,467
+4869,Stagecoach,1939,Western,99,8.9,9.0,9.0,272
+28163,Grass,1925,Documentary,73,8.9,10.0,8.0,6
+439,Andrej Rublëv,1969,Drama,174,8.9,9.0,9.0,154
+37687,Blade Runner The Final Cut,1982,Fantasy,117,8.9,9.26,9.0,393
+27983,Heimat - Eine Chronik in elf Teilen,1984,Drama,924,8.9,9.22,9.0,51
+23088,El angel exterminador,1962,Drama,95,8.9,8.86,9.0,239
+10623,Blade Runner,1982,Fantasy,124,8.9,9.02,9.0,843
+18020,Le trou,1960,Thriller,139,8.9,9.32,8.0,156
+8773,The Crowd,1928,Drama,90,8.9,8.89,9.0,44
+13196,Apocalypse Now,1979,War,147,8.9,9.13,9.0,611
+75394,Ashani Sanket,1973,Drama,101,8.8,8.5,9.0,4
+67415,Ninja: Shadow of a Tear,2013,Action,95,8.8,10.0,8.0,3
+1255,Singin' in the Rain,1952,Musical,102,8.8,9.12,8.0,220
+1009,Blade Runner,1982,Fantasy,124,8.8,8.85,9.0,268
+39110,War Requiem,1988,Drama,92,8.8,9.0,9.0,6
+21367,Le salaire de la peur,1952,Drama,148,8.8,8.88,9.0,122
+6595,Solaris,1972,Fantasy,160,8.8,8.93,9.0,256
+2634,Fanny och Alexander,1982,Drama,312,8.8,9.04,9.0,175
+31777,La colonna infame,1973,Drama,105,8.8,8.67,9.0,4
+4508,The Night of the Hunter,1955,Drama,93,8.8,9.35,8.0,320
+9899,Carlito's Way,1993,Gangster,141,8.8,8.77,9.0,505
+5635,Right to Die,1987,Drama,90,8.8,7.5,10.0,3
+12680,"Hiroshima, mon amour",1959,Drama,91,8.8,8.92,9.0,162
+56838,Cold Harvest,1999,Action,89,8.8,8.0,10.0,3
+43938,Tol'able David,1921,Drama,99,8.8,10.0,8.0,4
+1133,"Il buono, il brutto e il cattivo",1967,Western,182,8.8,8.7,9.0,645
+27798,Narayama Bushi-ko,1958,Drama,108,8.8,9.09,8.0,30
+45196,Fräulein Else,1929,Drama,90,8.8,9.0,9.0,3
+140909,Ostatni dzien lata,1958,Drama,66,8.8,10.0,8.0,5
+9457,Il Gattopardo,1962,Drama,184,8.8,9.12,9.0,283
+45763,Bushi no ichibun,2006,Drama,121,8.8,10.0,8.0,22
+6002,Geneviève,1953,Comedy,86,8.8,8.0,10.0,5
+27973,Ziemia obiecana,1974,Drama,182,8.8,9.0,9.0,4
+23662,The Little Foxes,1941,Drama,116,8.8,8.94,9.0,61
+7138,The Elephant Man,1980,Drama,125,8.8,8.88,9.0,476
+210973,The Plains,2022,Drama,180,8.8,8.5,9.0,3
+3611,Intolerance,1916,Drama,116,8.8,9.06,9.0,61
+5273,Pickpocket,1959,Drama,75,8.8,9.13,9.0,120
+4977,8 1/2,1963,Grotesque,140,8.8,9.11,8.0,467
+8219,Sciuscià,1946,Drama,86,8.8,9.0,9.0,173
+24461,High Noon,1952,Western,84,8.8,9.1,9.0,264
+9280,Goodfellas,1990,Gangster,145,8.8,8.68,9.0,679
+128589,Marketa Lazarová,1967,Drama,162,8.8,8.33,9.0,13
+23209,The Unknown,1927,Drama,65,8.8,8.79,9.0,59
+27911,Le deuxième souffle,1966,Drama,150,8.8,9.0,9.0,68
+3715,Ivan Groznyy,1944,History,100,8.8,8.92,9.0,72
+62466,Mahi va gorbeh,2013,Drama,127,8.8,9.0,9.0,6
+23445,Mesto na zemle,2001,Drama,122,8.8,9.25,8.0,20
+25984,Die Zweite Heimat - Chronik einer Jugend - Eifersucht und Stolz,1992,Drama,116,8.8,8.33,9.0,10
+43114,Die Fremde ,2010,Drama,119,8.8,7.5,10.0,3
+64184,Saatvin Sair,2013,Sperimental,70,8.8,9.0,9.0,3
+55885,Yi Wu Si Er,2012,Drama,135,8.8,9.5,8.0,3
+45526,Yumurta,2007,Drama,97,8.8,8.0,10.0,3
+2949,Fury,1936,Drama,94,8.8,9.0,9.0,66
+25983,Die Zweite Heimat - Chronik einer Jugend - Zwei fremde Augen,1992,Drama,115,8.8,8.33,9.0,9
+12363,L'Atalante,1934,Drama,89,8.8,9.14,9.0,191
+25988,Die Zweite Heimat - Chronik einer Jugend - Kunst oder Leben,1992,Drama,133,8.8,9.0,9.0,6
+3627,Invasion of the Body Snatchers,1956,Fantasy,80,8.8,8.93,9.0,282
+1367,Casablanca,1942,Drama,102,8.8,9.09,9.0,383
+2240,The Woman in the Window,1944,Noir,95,8.8,9.22,8.0,143
+2956,White Heat,1949,Crime,114,8.8,8.83,9.0,69
+12254,Smultronstället,1957,Drama,95,8.8,9.26,8.0,370
+3376,Heimat: Eine Chronik in elf Teilen - Die Mitte der Welt,1984,Drama,90,8.8,9.0,9.0,13
+12009,Los olvidados,1950,Drama,88,8.8,8.89,9.0,108
+165577,I rec u,2015,Comedy,116,8.8,9.0,9.0,3
+6849,La strada,1954,Drama,94,8.8,8.83,9.0,223
+31679,The Unsuspected,1947,Drama,103,8.8,10.0,8.0,5
+3621,North by Northwest,1959,Spy,136,8.8,8.89,9.0,461
+10882,I soliti ignoti,1958,Comedy,111,8.8,8.86,9.0,463
+41656,RiP: A Remix Manifesto,2009,Documentary,80,8.8,7.67,10.0,4
+25373,Berlin Alexanderplatz,1980,Drama,58,8.8,8.5,9.0,13
+32472,Make Way for Tomorrow,1937,Drama,91,8.8,8.8,9.0,20
+27884,The Terence Davies Trilogy,1983,Drama,102,8.8,9.33,8.0,13
+17455,La ville des pirates,1983,Drama,107,8.7,9.33,8.0,17
+1574,The Circus,1928,Drama,61,8.7,8.76,9.0,101
+7799,Una vita difficile,1961,Comedy,115,8.7,8.74,9.0,161
+33977,I cinghiali di Portici,2003,Drama,85,8.7,8.0,9.0,4
+4551,The Wild Bunch,1969,Western,134,8.7,8.82,8.0,348
+24065,Werckmeister harmóniák,2000,Drama,140,8.7,8.56,9.0,94
+25687,The Servant,1963,Drama,116,8.7,9.0,8.0,129
+1471,What Ever Happened to Baby Jane?,1962,Drama,133,8.7,8.91,9.0,262
+70217,So-won,2013,Drama,122,8.7,9.0,8.0,21
+2001,"Dekalog, jeden",1989,Drama,53,8.7,8.73,9.0,121
+2316,Dr. Strangelove or How I Learned to Stop Worrying and Love the Bomb,1963,Grotesque,93,8.7,8.58,9.0,505
+49923,Mai wei,2011,War,145,8.7,10.0,7.0,13
+6704,The Band Wagon,1953,Musical,112,8.7,8.6,9.0,50
+10659,The Tales of Hoffmann,1951,Fantasy,115,8.7,8.89,9.0,36
+17763,The Night of the Living Dead,1968,Horror,93,8.7,8.89,9.0,383
+12773,Persona,1966,Drama,79,8.7,8.52,9.0,249
+12123,Sanma no aji,1962,Drama,112,8.7,8.73,9.0,96
+14975,Ladoni,1994,Documentary,130,8.7,9.33,8.0,14
+7788,Viridiana,1961,Drama,91,8.7,8.87,9.0,135
+15670,Aguirre der Zorn Gotters,1972,Drama,93,8.7,8.74,9.0,239
+37901,Shurayukihime,1973,Drama,97,8.7,9.25,8.0,54
+845,Pépé le Moko,1937,Drama,94,8.7,9.0,8.0,44
+3375,Heimat: Eine Chronik in elf Teilen - Hermännchen,1984,Drama,119,8.7,9.0,8.0,13
+5714,He Who Gets Slapped,1924,Drama,80,8.7,8.75,9.0,15
+1022,The Blues Brothers,1980,Comedy,127,8.7,8.7,9.0,713
+78480,Ukigumo,1955,Drama,123,8.7,8.5,9.0,9
+23037,A nous la liberté,1931,Comedy,82,8.7,8.6,9.0,16
+25989,Die Zweite Heimat - Chronik einer Jugend - Zeit des Schweigens,1992,Drama,120,8.7,8.33,9.0,7
+78846,Baron Prásil,1961,Adventure,83,8.7,8.5,9.0,14
+8547,One Flew Over the Cuckoo's Nest,1975,Drama,135,8.7,8.68,9.0,534
+15917,Indagine su un cittadino al di sopra di ogni sospetto,1970,Drama,114,8.7,8.67,9.0,419
+6163,A Matter of Life and Death,1946,Fantasy,104,8.7,9.06,8.0,86
+25987,Die Zweite Heimat - Chronik einer Jugend - Die Hochzeit,1992,Drama,120,8.7,8.33,9.0,9
+7417,The Birds,1963,Thriller,115,8.7,8.98,9.0,522
+38709,Onibaba,1964,Drama,103,8.7,8.73,9.0,56
+27890,La chute de la maison Usher,1928,Drama,63,8.7,9.08,8.0,54
+42863,Der letzte Mann,1924,Drama,77,8.7,9.21,8.0,65
+4778,Le notti di Cabiria,1956,Drama,128,8.7,8.8,9.0,161
+42016,Kurutta ippêji,1926,Drama,67,8.7,9.17,8.0,17
+3383,Heimat: Eine Chronik in elf Teilen - Reichshöhenstrasse,1984,Drama,59,8.7,9.0,8.0,12
+7522,The Man Who Shot Liberty Valance,1961,Western,110,8.7,8.73,9.0,176
+5887,Queen Kelly,1928,Drama,96,8.7,9.0,8.0,21
+934,Bellissima,1951,Drama,113,8.7,9.0,8.0,215
+68962,Dohee-ya,2014,Drama,119,8.7,9.0,8.0,21
+5949,Rio Bravo,1959,Western,141,8.7,8.79,9.0,256
+39595,Aruitemo aruitemo,2008,Drama,114,8.7,8.75,9.0,34
+3374,Heimat: Eine Chronik in elf Teilen - Die stolzen Jahre,1984,Drama,82,8.7,9.0,8.0,13
+54329,"Jeanne Dielman, 23 Quai du Commerce, 1080 Bruxelles",1975,Drama,201,8.7,8.88,9.0,31
+22888,Simón del desierto,1965,Drama,42,8.7,8.94,8.0,84
+117296,Mizu no naka no hachigatsu,1995,Drama,117,8.7,10.0,7.0,4
+6351,The Searchers,1956,Western,119,8.7,8.86,9.0,305
+49127,Keep the Lights On,2012,Drama,101,8.7,8.33,9.0,6
+28139,The Docks of New York,1928,Drama,76,8.7,8.71,9.0,24
+44431,Hadaka no shima,1960,Drama,94,8.7,8.86,9.0,41
+25995,Die Zweite Heimat - Chronik einer Jugend - Kennedys Kinder,1992,Drama,120,8.7,8.33,9.0,5
+4700,Krotki film o milosci,1988,Drama,82,8.7,8.5,9.0,34
+14011,J'entends plus la guitare,1991,Drama,108,8.6,9.0,8.0,12
+23412,Yojimbo,1961,Adventure,110,8.6,8.64,8.0,126
+11317,Le corbeau,1943,Drama,93,8.6,8.39,9.0,83
+5826,Ran,1985,Drama,163,8.6,9.32,8.0,191
+37915,Suna no onna,1964,Drama,147,8.6,8.33,9.0,75
+71549,Risttuules,2014,Drama,90,8.6,9.0,8.0,7
+3381,Heimat: Eine Chronik in elf Teilen - Fernweh,1984,Drama,120,8.6,9.0,8.0,14
+10077,Annie Hall,1977,Comedy,90,8.6,8.89,8.0,476
+6786,Stalker,1979,Fantasy,177,8.6,8.59,9.0,255
+17421,Mat' i syn,1997,Drama,67,8.6,8.95,8.0,89
+23241,Mädchen in Uniform,1931,Drama,88,8.6,8.5,9.0,12
+52052,Ningen no jôken,1959,Drama,208,8.6,8.25,9.0,20
+7100,The Third Man,1949,Noir,105,8.6,8.67,9.0,224
+2667,Le charme discret de la bourgeoisie,1972,Grotesque,97,8.6,9.11,8.0,277
+7104,The Treasure of the Sierra Madre,1948,Adventure,126,8.6,8.83,8.0,127
+493,The Miracle Worker,1962,Drama,107,8.6,8.83,8.0,115
+10541,Stacka,1925,Drama,92,8.6,8.62,9.0,64
+154919,Ukikusa,1959,Drama,119,8.6,8.5,9.0,9
+23390,Seven Men From Now,1956,Western,78,8.6,8.8,8.0,29
+21150,The Life and Death of Colonel Blimp,1943,Drama,163,8.6,8.56,9.0,74
+3868,Lawrence of Arabia,1962,Biography,180,8.6,8.74,9.0,228
+19360,The Straight Story,1999,Drama,111,8.6,8.69,8.0,482
+2177,Divorzio all'italiana,1961,Comedy,120,8.6,8.83,8.0,286
+25327,Diario di un maestro,1972,Drama,135,8.6,8.71,8.0,33
+3754,Johnny Guitar,1953,Drama,110,8.6,8.74,8.0,134
+16351,"Bashù, gharibeh kuchak",1989,Drama,110,8.6,8.67,9.0,15
+3223,The Big Heat,1953,Noir,90,8.6,8.68,9.0,141
+61260,Przesluchanie,1982,Thriller,118,8.6,8.0,9.0,7
+4975,Othello,1952,Drama,95,8.6,8.36,9.0,74
+3900,Letter from an Unknown Woman,1948,Drama,89,8.6,8.94,8.0,119
+4746,Notorious,1946,Spy,101,8.6,8.63,9.0,348
+5872,Red River,1948,Western,125,8.6,8.96,8.0,157
+14662,Liebelei,1932,Drama,88,8.6,8.5,9.0,16
+7269,Mutiny on the Bounty,1935,Drama,133,8.6,8.25,9.0,62
+27900,Senatorium pod Clepsydra,1973,Fantasy,124,8.6,9.0,8.0,18
+24700,Hitori musuko,1936,Drama,77,8.6,8.44,9.0,51
+10809,The General,1926,Comedy,74,8.6,9.19,8.0,134
+32390,Die Brücke,1959,War,105,8.6,8.67,8.0,19
+22911,A Midsummer Night's Dream,1935,Comedy,117,8.6,8.2,9.0,8
+24445,Kumonosu-Jo,1957,Drama,108,8.6,8.65,9.0,112
+63760,Spalovac mrtvol,1968,Comedy,95,8.6,8.63,9.0,20
+2007,"Dekalog, szesc",1989,Drama,58,8.6,8.67,9.0,74
+30302,Broken Blossoms,1919,Drama,91,8.6,9.0,8.0,35
+27879,Él,1952,Drama,100,8.6,8.61,8.0,69
+55774,Tol'able David,1921,Drama,99,8.6,10.0,7.0,6
+27840,Akasen chitai,1956,Drama,86,8.6,8.6,9.0,40
+9959,Raging Bull,1980,Drama,128,8.6,8.79,8.0,472
+7813,I vitelloni,1953,Comedy,108,8.6,8.78,8.0,348
+22905,Okraina,1933,Comedy,98,8.6,9.0,8.0,25
+185597,Ningen no jôken III-IV,1959,War,181,8.6,8.0,9.0,10
+48916,The Big Trail,1930,Adventure,125,8.6,9.0,8.0,11
+1739,Komissar,1967,Drama,109,8.6,8.67,9.0,7
+22892,The Wedding March,1926,Drama,116,8.6,8.86,8.0,18
+6181,Scarface,1932,Noir,93,8.6,8.72,8.0,157
+9546,Hunted,1952,Drama,84,8.6,9.0,8.0,11
+1705,Written in the Wind,1956,Mélo,92,8.6,9.06,8.0,108
+160375,La flor,2018,Sperimental,815,8.6,8.5,9.0,6
+27922,Yoshiwara,1937,Drama,87,8.6,8.67,9.0,7
+25985,Die Zweite Heimat - Chronik einer Jugend - Weihnachtswölfe,1992,Drama,120,8.6,8.33,9.0,11
+31622,Na srebrnym globie,1987,Fantasy,166,8.6,8.83,8.0,28
+25991,Die Zweite Heimat - Chronik einer Jugend - Die Zeit der ersten Lieder,1992,Drama,119,8.6,8.33,9.0,8
+24564,Pyaasa,1957,Drama,139,8.6,8.0,9.0,7
+42811,Shi er jin pai,1970,Action,90,8.6,10.0,7.0,6
+7173,La discrète,1990,Comedy,94,8.5,8.5,9.0,6
+41938,Kwaidan ,1964,Horror,175,8.5,8.67,8.0,91
+46705,Shen nu,1934,Drama,85,8.5,8.0,9.0,4
+48985,Der Tod der Maria Malibran,1972,Musical,104,8.5,9.0,8.0,3
+49461,Il mondo dell'orrore di Dario Argento,1985,Documentary,76,8.5,10.0,7.0,4
+50457,Kròtki film o zabijaniu,1987,Drama,87,8.5,8.57,8.0,32
+22982,The Ox-Bow Incident,1943,Western,75,8.5,8.54,8.0,62
+22301,Mulholland Drive,2001,Noir,145,8.5,8.75,8.0,648
+22985,Drewo Shelanija,1976,Comedy,100,8.5,8.83,8.0,21
+38798,Italian Dream,2007,Comedy,95,8.5,7.0,10.0,3
+201609,Sincerely Louis CK,2020,Comedy,61,8.5,7.0,10.0,3
+675,Ace in the Hole,1951,Drama,112,8.5,8.28,9.0,170
+192216,Bilmemek,2019,Drama,95,8.5,7.0,10.0,3
+64142,Karamazovi,2008,Drama,113,8.5,9.0,8.0,7
+23985,Tini zabutych predkov,1964,Drama,97,8.5,8.75,8.0,27
+33207,La otra,1946,Drama,98,8.5,9.0,8.0,7
+23106,Aparajito,1957,Drama,101,8.5,8.46,9.0,44
+33171,Night and the City,1950,Noir,101,8.5,8.64,8.0,47
+13904,C'eravamo tanto amati,1974,Comedy,125,8.5,8.81,8.0,327
+28363,Le ciel est à vous,1944,Drama,105,8.5,8.0,9.0,4
+1041,Bonnie and Clyde,1967,Gangster,111,8.5,8.65,8.0,201
+13999,Nema-ye nazdik,1990,Drama,100,8.5,8.5,9.0,36
+26216,Céline et Julie vont en bateau,1974,Drama,187,8.5,7.63,9.0,19
+12855,Un borghese piccolo piccolo,1977,Drama,122,8.5,8.39,9.0,290
+3382,Heimat: Eine Chronik in elf Teilen - Auf und davon und zurück,1984,Drama,59,8.5,9.0,8.0,12
+63245,The Untold History of the United States,2012,Documentary,713,8.5,8.0,9.0,7
+17711,Dawn of the Dead,1979,Horror,110,8.5,8.33,9.0,277
+41627,Neco z Alenky ,1988,Animation,86,8.5,8.71,8.0,55
+653,Secret Sins of the Father,1994,Drama,100,8.5,8.0,9.0,3
+7854,To Be Or Not to Be,1942,Comedy,99,8.5,9.04,8.0,179
+46448,Siglo ng pagluluwal,2011,Drama,355,8.5,9.17,8.0,30
+10550,The Lost Weekend,1945,Drama,101,8.5,8.43,9.0,152
+46783,Zangiku monogatari,1939,Drama,142,8.5,8.83,8.0,15
+13199,Heat,1995,Noir,170,8.5,8.56,8.0,581
+21380,All Quiet on the Western Front,1930,War,138,8.5,8.33,9.0,65
+4825,Peeping Tom,1960,Thriller,109,8.5,8.72,8.0,175
+15484,Savrseni krug,1997,Drama,110,8.5,8.0,9.0,3
+52762,Un consiglio a Dio,2011,Sperimental,72,8.5,7.0,10.0,3
+15910,The Heiress,1949,Drama,115,8.5,8.2,9.0,101
+3290,Touchez pas au grisbi,1954,Noir,94,8.5,8.75,8.0,71
+5584,I pugni in tasca,1965,Drama,107,8.5,8.96,8.0,168
+31453,Mat',1926,Drama,84,8.5,8.83,8.0,34
+149022,Marie-Octobre,1959,Drama,90,8.5,7.0,10.0,3
+24906,"A Time to Live, a Time to Die",1985,Drama,138,8.5,8.33,9.0,16
+34856,Knallhart,2006,Drama,98,8.5,9.0,8.0,3
+15905,O thiasos,1975,Drama,230,8.5,8.64,8.0,40
+31031,Biruma no tatekoto,1985,Drama,133,8.5,9.5,8.0,6
+16125,Hana-Bi,1997,Thriller,103,8.5,8.63,8.0,258
+58654,Gare du Nord,2013,Drama,119,8.5,9.0,8.0,3
+8866,Lady Windermere's Fan,1925,Comedy,80,8.5,8.25,9.0,27
+42417,Solo Sunny,1980,Drama,100,8.5,8.0,9.0,3
+8930,Dinner at Eight,1933,Comedy,113,8.5,8.55,8.0,37
+14727,Jezebel,1938,Mélo,104,8.5,8.8,8.0,46
+1336,Körkarlen,1921,Fantasy,100,8.5,8.56,8.0,54
+27612,"Privideniye, kotoroye ne vozvrashchayetsya",1929,Drama,66,8.5,8.0,9.0,3
+9816,Le locataire,1976,Drama,125,8.5,8.61,8.0,326
+2006,"Dekalog, piec",1989,Drama,59,8.5,8.5,8.0,77
+8191,The Killers,1946,Crime,105,8.5,8.59,8.0,81
+8052,Ninotchka,1939,Comedy,110,8.5,8.77,8.0,148
+36545,Therese und Isabell,1968,Drama,118,8.5,9.0,8.0,3
+31510,Beau travail,1999,Drama,93,8.5,8.86,8.0,26
+10759,The Magnificent Amberson,1942,Drama,88,8.5,8.95,8.0,146
+54721,Kid,2012,Drama,90,8.5,8.0,9.0,3
+54282,Shah-re ziba,2004,Drama,101,8.5,8.0,9.0,3
+1843,The Conversation,1974,Thriller,115,8.5,8.85,8.0,308
+33009,Hideg napok,1966,Drama,96,8.5,8.0,9.0,3
+69769,Can't Stand Losing You,2012,Musical,79,8.5,7.0,10.0,3
+3262,The Big Sleep,1946,Noir,114,8.5,9.09,8.0,231
+69515,Der freie Wille,2006,Thriller,163,8.5,8.75,8.0,18
+168687,Serpentário,2019,Fantasy,83,8.5,8.0,9.0,3
+325,Amarcord,1973,Grotesque,125,8.5,8.74,8.0,429
+27878,Nazarin,1958,Drama,96,8.5,8.61,8.0,89
+6448,My Darling Clementine,1946,Western,97,8.5,8.62,8.0,177
+4868,The Letter,1940,Drama,95,8.5,8.76,8.0,98
+39429,Gran Torino,2008,Drama,116,8.5,8.51,9.0,932
+27800,Dersu Uzala,1975,Adventure,140,8.5,8.56,8.0,150
+11921,Attack!,1956,War,107,8.5,8.82,8.0,51
+9338,Unforgiven,1992,Western,131,8.5,8.54,8.0,517
+242,Alien,1979,Fantasy,115,8.5,8.54,8.0,677
+151267,"Sorgoï Prakov, My European Dream",2013,Horror,92,8.5,9.0,8.0,3
+25674,Alien,1979,Fantasy,118,8.5,8.27,9.0,152
+9893,Of Pure Blood,1986,Drama,120,8.5,7.0,10.0,3
+150,L'âge d'or,1930,Drama,60,8.5,8.63,8.0,109
+13333,The Fallen Idol,1948,Drama,94,8.5,8.43,8.0,30
+19810,Home Coming,1996,Drama,90,8.5,7.0,10.0,3
+74080,Best of Enemies,2015,Documentary,87,8.5,8.0,9.0,3
+7936,Zelig,1983,Comedy,80,8.5,8.63,8.0,294
+34300,Long xie shi san ying,1978,Action,90,8.5,8.0,9.0,3
+15669,Jeder für sich und Gott gegen alle,1974,Drama,109,8.5,8.62,8.0,144
+45564,Kiseki,2011,Drama,128,8.5,8.5,8.0,20
+7876,A face in the Crowd,1957,Drama,120,8.5,8.44,9.0,39
+27910,King and Country,1964,Drama,90,8.5,8.55,9.0,49
+147566,Postcards from London,2017,Comedy,90,8.5,8.0,9.0,3
+44359,Girl Shy,1924,Comedy,82,8.5,10.0,7.0,5
+6857,Scarlet Street,1945,Drama,98,8.5,8.69,8.0,90
+27326,The Godfather 1902-1959: The Complete Epic,1977,Drama,418,8.5,8.0,9.0,11
+216881,Bentu,2022,Drama,70,8.5,8.0,9.0,3
+89,It Happened One Night,1934,Comedy,108,8.5,8.63,8.0,171
+51409,Bangiku,1954,Drama,101,8.5,9.0,8.0,3
+19143,Mouchette,1967,Drama,80,8.5,8.58,8.0,75
+27874,Journal d'un curé de campagne,1951,Drama,110,8.5,8.94,8.0,77
+13104,Les diaboliques,1954,Thriller,110,8.5,8.57,8.0,153
+32894,Salt of the Earth,1954,Drama,94,8.5,8.0,9.0,4
+10843,Dark Passage,1947,Noir,106,8.5,8.38,9.0,105
+10123,Underworld U.S.A.,1961,Drama,98,8.5,8.5,9.0,25
+3938,Lolita,1962,Drama,152,8.5,8.71,8.0,342
+5833,The Killing,1956,Thriller,83,8.5,9.06,8.0,330
+39239,Heremias,2006,Drama,302,8.5,8.25,9.0,10
+3505,Alberto express,1990,Comedy,90,8.5,8.0,9.0,3
+27468,Piccola pesca,2004,Documentary,80,8.5,8.0,9.0,3
+67041,Umut,1970,Drama,100,8.5,8.67,8.0,7
+27816,Narayama bushi-ko,1983,Drama,128,8.5,7.89,9.0,56
+8967,The Merry Widow,1934,Comedy,99,8.4,8.29,9.0,25
+2488,La nuit américaine,1973,Comedy,115,8.4,9.21,8.0,267
+25346,Berlin Alexanderplatz,1980,Drama,60,8.4,8.0,9.0,14
+781,Cat People,1942,Horror,73,8.4,8.58,8.0,164
+23017,Love Me Tonight,1932,Musical,84,8.4,8.14,9.0,21
+9114,L. 627,1992,Drama,145,8.4,9.0,8.0,20
+16960,The Big Lebowski,1998,Comedy,117,8.4,8.45,8.0,681
+25289,Charulata,1964,Drama,114,8.4,9.0,8.0,19
+1278,Captains Corageous,1937,Adventure,116,8.4,8.67,8.0,59
+19197,Il grido,1957,Drama,116,8.4,8.33,9.0,119
+5265,Little Big Man,1970,Western,142,8.4,8.58,8.0,171
+59057,Ashug-Karibi,1988,Drama,73,8.4,8.2,9.0,10
+14650,The Ghost and Mrs Muir,1947,Romantic,104,8.4,8.5,8.0,73
+25309,Idi i smotri,1985,Drama,123,8.4,8.5,8.0,89
+43941,A Torinói ló ,2011,Drama,150,8.4,8.36,8.0,129
+20554,Hua yang nian hua,2000,Romantic,98,8.4,8.68,8.0,409
+19236,Kikujiro no natsu,1999,Comedy,121,8.4,8.48,8.0,226
+35318,Proshchanie s matjoroj,1983,Drama,108,8.4,8.5,8.0,8
+92,Accattone,1961,Drama,120,8.4,8.81,8.0,291
+25990,Die Zweite Heimat - Chronik einer Jugend - Die Zeit der vielen Worte,1992,Drama,115,8.4,8.33,9.0,7
+70911,Nabat,2014,Drama,105,8.4,8.0,9.0,7
+38033,Démanty noci,1964,Drama,63,8.4,8.75,8.0,12
+28032,The Marriage Circle,1924,Comedy,85,8.4,8.13,9.0,24
+3380,Heimat: Eine Chronik in elf Teilen - Weihnacht wie noch nie,1984,Drama,58,8.4,8.67,8.0,12
+17052,Out of the Past,1947,Noir,97,8.4,8.7,8.0,134
+23130,"Csillagosok, katonák",1967,Drama,92,8.4,8.8,8.0,24
+10366,Monkey Business,1931,Comedy,77,8.4,8.64,8.0,32
+17038,La grande bouffe,1973,Grotesque,123,8.4,8.52,8.0,280
+34950,Otesánek,2000,Comedy,125,8.4,8.25,9.0,21
+11646,The Thing,1982,Fantasy,108,8.4,8.27,9.0,532
+9336,Madame de...,1953,Drama,102,8.4,8.57,8.0,54
+9066,Detour,1945,Noir,65,8.4,8.8,8.0,118
+6162,The Spiral Staircase,1945,Noir,83,8.4,8.67,8.0,166
+27593,Subarnarekha,1965,Drama,122,8.4,8.17,9.0,14
+63805,La cicatrice intérieure,1972,Drama,60,8.4,7.75,9.0,7
+14689,Die Puppe,1919,Comedy,60,8.4,8.29,8.0,26
+32320,Meghe dhaka tara,1961,Drama,121,8.4,8.5,8.0,9
+23089,Yoidore tenshi,1948,Drama,98,8.4,8.21,9.0,87
+14797,Såsom i en spegel,1960,Drama,89,8.4,8.64,8.0,133
+11630,Schindler's List,1993,Drama,194,8.4,8.58,8.0,640
+14799,Nattvardsgästerna,1963,Drama,81,8.4,8.52,8.0,130
+5862,The King of Comedy,1983,Grotesque,110,8.4,8.3,8.0,304
+42521,Race with the Devil,1975,Action,88,8.4,10.0,7.0,15
+23076,Tengoku to jigoku,1963,Drama,143,8.4,8.13,9.0,123
+10087,Paisà,1946,Drama,126,8.4,9.26,8.0,182
+2935,Nobi,1959,Drama,108,8.4,8.17,9.0,22
+12853,Amici miei,1975,Comedy,120,8.4,8.35,9.0,388
+6963,Bringing Up Baby,1938,Comedy,102,8.4,8.75,8.0,240
+40401,Kûki ningyô,2009,Drama,125,8.4,8.8,8.0,40
+6348,Senso,1954,Mélo,115,8.4,9.0,8.0,223
+7995,Ossessione,1943,Drama,112,8.4,8.63,8.0,151
+21350,I nostri anni,2001,Drama,90,8.4,8.67,8.0,10
+145417,Nijûshi no hitomi,1954,Drama,156,8.4,8.0,9.0,17
+12555,Le Samouraï,1967,Noir,107,8.4,8.68,8.0,172
+6737,Splendor in the Grass,1961,Mélo,124,8.4,8.58,8.0,117
+2100,Tagebuch einer Verlorenen,1929,Drama,90,8.4,8.25,9.0,31
+198837,Ennio,2021,Documentary,150,8.4,8.14,9.0,101
+26150,Ramatou/Hyènes,1992,Drama,106,8.4,8.0,9.0,8
+5575,Providence,1977,Drama,107,8.4,8.5,8.0,46
+2005,"Dekalog, cztery",1989,Drama,55,8.4,8.38,8.0,71
+43601,Mistérios de Lisboa,2010,Drama,355,8.4,9.56,7.0,43
+26479,Angels in America,2003,Drama,352,8.4,8.56,8.0,59
+31557,La gueule ouverte,1974,Drama,82,8.4,8.6,8.0,9
+14414,The Last Picture Show,1971,Drama,118,8.4,8.65,8.0,120
+27963,The Saga of Anathan,1953,Drama,92,8.4,9.33,8.0,12
+18177,The Thin Red Line,1998,War,170,8.4,8.67,8.0,520
+4676,Rope,1948,Thriller,80,8.4,8.23,8.0,362
+1151,C'era una volta il West,1969,Western,178,8.4,8.15,9.0,511
+22441,The Exorcist,1973,Horror,120,8.4,8.63,8.0,497
+18052,Jalsaghar,1958,Drama,94,8.4,8.71,8.0,26
+24533,Une histoire immortelle,1968,Drama,58,8.4,8.38,8.0,64
+22452,From Star Wars to Star Wars,1999,Documentary,45,8.4,8.0,9.0,5
+6674,The Hustler,1961,Drama,140,8.4,8.52,8.0,175
+6697,Imitation of Life,1959,Mélo,124,8.4,8.74,8.0,130
+7803,La vie et rien d'autre,1989,Drama,135,8.4,8.8,8.0,20
+22618,Signore & signori,1965,Comedy,118,8.4,8.48,8.0,141
+27811,Gishiki,1971,Drama,122,8.4,8.33,9.0,28
+14151,Zendegi edame darad,1992,Comedy,91,8.4,8.89,8.0,33
+25706,El espíritu de la colmena,1973,Drama,97,8.4,8.44,8.0,67
+16190,Oktjabr',1927,History,109,8.4,8.56,8.0,73
+17617,The Truman Show,1998,Comedy,103,8.4,8.49,8.0,681
+4573,Napoléon vu par Abel Gance,1927,Biography,110,8.4,8.44,8.0,42
+2314,Inferno - Menschen der Zeit,1922,Drama,100,8.4,8.0,9.0,19
+1119,To Kill a Mockingbird,1962,Drama,129,8.4,8.46,8.0,257
+7309,Three Days of the Condor,1975,Spy,120,8.4,8.52,8.0,363
+2645,Le fantôme de la liberté,1974,Drama,105,8.4,8.11,9.0,127
+5641,Forty-Second Street,1933,Musical,89,8.4,8.67,8.0,24
+20953,Jungfrukällan,1960,Drama,89,8.4,8.27,9.0,143
+5399,The Bridge on the River Kwai,1957,War,100,8.4,8.57,8.0,206
+3317,Duck Soup,1933,Comedy,70,8.4,8.59,8.0,151
+6428,Seven Chances,1925,Comedy,69,8.4,7.7,9.0,59
+39138,Les Plages d'Agnès,2008,Documentary,100,8.4,8.67,8.0,16
+24313,Bakushu,1951,Drama,124,8.4,8.67,8.0,22
+4108,Trouble in Paradise,1932,Comedy,80,8.4,8.4,8.0,91
+32545,Salón México,1949,Drama,95,8.4,9.0,8.0,7
+10610,Sedotta e abbandonata,1963,Comedy,125,8.4,8.33,8.0,183
+22223,L'argent,1983,Drama,85,8.4,8.59,8.0,73
+296,Strangers on a Train,1951,Thriller,96,8.4,8.61,8.0,251
+27930,Million Dollar Baby,2004,Drama,137,8.4,8.38,8.0,853
+27946,Lilith,1964,Drama,114,8.4,8.67,8.0,25
+4114,Manhunter,1986,Thriller,117,8.4,8.73,8.0,335
+3303,Guardie e ladri,1951,Comedy,105,8.4,8.29,8.0,174
+12337,The Scarlet Empress,1934,Drama,110,8.4,8.92,8.0,44
+15344,The Navigator,1924,Comedy,65,8.4,8.22,9.0,91
+27801,Cría cuervos...,1975,Drama,112,8.4,8.5,8.0,32
+1870,Shock Corridor,1963,Drama,101,8.4,8.5,8.0,102
+8812,Procés de Jeanne d'Arc,1962,Drama,60,8.4,8.19,9.0,56
+21195,Le feu follet,1963,Drama,110,8.4,8.09,9.0,50
+75306,Memory of the Camps,2014,Documentary,50,8.4,8.67,8.0,20
+2326,Khane-ye Doust Kodjast?,1987,Drama,85,8.4,8.33,8.0,60
+67251,J'accuse!,1919,Drama,119,8.4,8.2,9.0,18
+11242,Tutti a casa,1960,Comedy,110,8.4,8.47,8.0,156
+2872,Young Frankenstein,1974,Comedy,105,8.4,8.43,8.0,605
+10891,Short Cuts,1993,Drama,193,8.4,8.78,8.0,222
+24590,Mystic River,2003,Drama,137,8.4,8.7,8.0,776
+10604,Sullivan's Travels,1941,Comedy,90,8.4,8.46,8.0,64
+4750,A Night at the Opera,1935,Comedy,92,8.3,8.6,8.0,67
+11166,La battaglia di Algeri,1966,Drama,120,8.3,8.39,8.0,194
+11270,Dead Ringers,1988,Drama,111,8.3,8.39,8.0,263
+25278,Jeux interdits,1952,Drama,84,8.3,8.5,8.0,32
+2959,The Turning Point,1951,Crime,85,8.3,8.0,9.0,4
+86054,La roue,1923,Drama,415,8.3,7.5,9.0,8
+27909,Jôi-uchi: Hairyô tsuma shimatsu,1967,Drama,128,8.3,8.4,8.0,24
+10599,Man of a Thousand Faces,1957,Biography,122,8.3,8.0,9.0,7
+11168,A Woman Under the Influence,1974,Drama,155,8.3,8.47,8.0,84
+46666,Hot Water,1924,Comedy,59,8.3,10.0,7.0,3
+38120,Safety Last,1923,Comedy,54,8.3,8.55,8.0,45
+66651,Pierrot Lunaire,2014,Drama,56,8.3,9.0,8.0,5
+42207,Don Giovanni,1970,Drama,90,8.3,8.5,8.0,13
+68878,Meshi,1951,Drama,97,8.3,8.5,8.0,7
+15818,Nun va goldun,1996,Comedy,78,8.3,8.33,8.0,12
+7829,To Live and Die in L.A.,1985,Noir,114,8.3,8.53,8.0,232
+45346,Ausente,2011,Drama,87,8.3,9.0,8.0,3
+42569,Un homme qui crie ,2010,Drama,100,8.3,8.0,9.0,6
+27936,La chienne,1931,Drama,100,8.3,8.22,8.0,35
+12428,Thirty-Six Hours,1964,Spy,115,8.3,8.0,9.0,5
+33004,Z,1969,Drama,127,8.3,8.0,9.0,89
+15566,Les enfants du Paradis,1945,Drama,195,8.3,9.2,7.0,126
+8443,Humoresque,1946,Drama,125,8.3,8.17,8.0,18
+8159,Die Büchse der Pandora,1928,Drama,120,8.3,8.09,8.0,43
+7719,Laura,1944,Thriller,88,8.3,8.65,8.0,125
+15923,Twin Peaks,1990,Drama,90,8.3,8.33,8.0,158
+3731,"Beware, My Lovely",1952,Thriller,77,8.3,7.5,9.0,4
+12736,Twenty Thousand Years in Sing Sing,1933,Drama,77,8.3,8.0,9.0,4
+2946,After Hours,1985,Comedy,96,8.3,8.19,8.0,370
+1068,The French Connection,1971,Crime,104,8.3,8.5,8.0,267
+32765,Barrio,1998,Drama,94,8.3,8.5,8.0,4
+27886,Les demoiselles de Rochefort,1966,Musical,120,8.3,9.11,8.0,28
+12309,Hsia nu,1971,Adventure,171,8.3,8.0,9.0,34
+15887,Don Quichotte,1933,Adventure,83,8.3,8.0,9.0,4
+178441,It Always Rains on Sunday,1947,Drama,92,8.3,9.0,8.0,6
+3497,In nome del popolo italiano,1971,Comedy,103,8.3,8.58,8.0,241
+74514,Szürkület,1990,Thriller,105,8.3,8.67,8.0,6
+46204,Posutoman burusu,1997,Thriller,110,8.3,8.0,9.0,8
+182522,Beo-ti-go,2019,Drama,114,8.3,8.0,9.0,3
+2915,Escape from Alcatraz,1979,Drama,112,8.3,8.54,8.0,395
+1926,Crimes and Misdemeanors,1989,Comedy,106,8.3,8.38,8.0,251
+42570,Hanyo,1960,Drama,111,8.3,8.33,8.0,20
+46285,Los viajes del viento,2009,Drama,117,8.3,8.25,8.0,9
+7981,Les bas fond,1936,Drama,90,8.3,8.0,9.0,6
+198268,Death Row - Hank Skinner,2012,Documentary,50,8.3,6.5,10.0,3
+129219,Extralarge: Diamonds,1993,Comedy,90,8.3,8.0,9.0,3
+38271,Punishment Park,1971,Drama,88,8.3,8.5,8.0,11
+86793,Mammame,1986,Musical,65,8.3,9.0,8.0,3
+162791,Goyôkin,1969,Action,124,8.3,8.0,9.0,4
+62164,John Ford et Monument Valley,2013,Documentary,54,8.3,8.0,9.0,3
+27775,Pociag,1959,Drama,101,8.3,8.25,8.0,8
+141299,The Green Goblin's Last Stand,1992,Action,46,8.3,9.0,8.0,3
+32549,The Phantom of the Opera,1925,Horror,93,8.3,8.33,8.0,42
+43271,Ai no mukidashi ,2008,Action,237,8.3,8.18,8.0,83
+198148,Death Row - James Barnes,2012,Documentary,50,8.3,6.5,10.0,3
+13293,Casino,1995,Gangster,178,8.3,8.61,8.0,509
+2575,The Europeans,1979,Drama,83,8.3,8.0,9.0,4
+15081,Al mumiya,1969,Drama,98,8.3,8.0,9.0,5
+39238,Heremias,2006,Drama,227,8.3,8.33,8.0,9
+20485,Salò o le 120 giornate di Sodoma,1975,Drama,137,8.3,8.52,8.0,305
+28503,Wu jian dao 3,2003,Crime,118,8.3,8.83,8.0,41
+7143,The Maltese Falcon,1941,Noir,90,8.3,8.9,8.0,217
+43179,Il loro Natale,2010,Documentary,75,8.3,8.0,9.0,4
+30541,Cent mille dollars au soleil,1964,Adventure,130,8.3,9.0,8.0,4
+33634,Angst,1983,Drama,87,8.3,8.5,8.0,29
+43817,Chi bi,2008,History,275,8.3,8.83,8.0,35
+33620,Le petit lieutenant,2005,Drama,110,8.3,8.67,8.0,6
+28290,Chûgoku no chôjin,1998,Action,118,8.3,8.0,9.0,16
+26152,Hakuchi,1951,Drama,166,8.3,8.45,8.0,46
+41286,Sílení,2005,Grotesque,123,8.3,8.29,8.0,33
+198967,Death Row - Linda Carty,2012,Documentary,50,8.3,6.5,10.0,3
+198955,Death Row - Joseph Garcia and George Rivas,2012,Documentary,50,8.3,6.5,10.0,3
+37004,Mahangar,1963,Drama,130,8.3,8.4,8.0,14
+76362,Préparez vos mouchoirs,1978,Comedy,108,8.3,10.0,7.0,3
+17510,Men with Guns,1997,Drama,128,8.3,8.0,9.0,7
+55816,Varázslat - Queen Budapesten,1987,Documentary,119,8.3,8.0,9.0,10
+1889,Jeremiah Johnson,1972,Western,110,8.3,8.35,8.0,225
+49767,American Translation,2011,Drama,90,8.3,8.5,8.0,3
+28531,Fat City,1972,Drama,100,8.3,8.47,8.0,81
+29853,Deadline at Dawn,1946,Noir,83,8.3,8.0,9.0,4
+20820,Jules et Jim,1962,Mélo,102,8.3,8.96,8.0,304
+5632,When the Clouds Roll By,1919,Thriller,65,8.3,8.0,9.0,4
+2554,The Exorcist,2000,Horror,131,8.3,8.28,8.0,231
+39319,Odgrobadogroba,2005,Drama,103,8.3,8.0,9.0,5
+2313,"Dr. Mabuse, der Spieler",1922,Drama,271,8.3,8.25,8.0,44
+60321,Failan,2001,Drama,115,8.3,8.0,9.0,3
+52623,Masks,2011,Horror,112,8.3,10.0,7.0,7
+36780,Le comiche di Charlot,1922,Comedy,110,8.3,8.0,9.0,9
+6535,The Silence of the Lambs,1991,Thriller,118,8.3,8.56,8.0,662
+21137,The Beguiled,1971,Drama,109,8.3,8.46,8.0,162
+461,Der Blaue Engel,1930,Drama,107,8.3,8.48,8.0,111
+204266,Dangsin-eolgul-apeseo,2021,Drama,85,8.3,8.5,8.0,3
+3610,The Untouchables,1987,Crime,119,8.3,8.33,8.0,547
+31621,Diabel,1972,Drama,119,8.3,8.0,9.0,21
+9774,Quatorze Juillet,1932,Comedy,92,8.3,8.0,9.0,4
+29414,Karpuz kabugundan gemiler yapmak,2004,Drama,97,8.3,8.0,9.0,4
+72005,Ebolusyon ng isang pamilyang Pilipino,2004,Drama,593,8.3,7.0,10.0,3
+22161,The Man Who Wasn't There,2001,Noir,114,8.3,8.41,8.0,429
+1635,The Criminal Code,1931,Drama,97,8.3,8.0,9.0,12
+27799,The Barefoot Contessa,1954,Drama,128,8.3,8.6,8.0,67
+6764,Vice Squad,1953,Crime,91,8.3,8.0,9.0,5
+6773,Jaws,1975,Thriller,125,8.3,8.46,8.0,535
+32530,Szegénylegények,1965,Drama,90,8.3,8.75,8.0,27
+4113,Manhattan,1979,Comedy,96,8.3,8.51,8.0,435
+3133,The Loneliness of the Long Distance Runner,1962,Drama,104,8.3,8.1,9.0,36
+3134,Rebel Without a Cause,1955,Drama,111,8.3,8.37,8.0,289
+27826,Nora inu,1949,Drama,122,8.3,8.65,8.0,84
+5468,Career,1959,Drama,105,8.3,8.0,9.0,3
+299,Love Me or Leave Me,1955,Drama,117,8.3,8.67,8.0,17
+6355,Without Love,1945,Comedy,111,8.3,8.0,9.0,5
+54331,La prima Angélica,1974,Drama,107,8.3,8.5,8.0,5
+13722,The Innocents,1961,Drama,105,8.3,8.25,8.0,104
+39213,Kagadanan sa banwan niga mga engkanto,2007,Drama,231,8.3,8.17,8.0,18
+49788,Tabu,2011,Drama,111,8.3,8.1,8.0,25
+47436,Camino,2008,Drama,138,8.3,8.67,8.0,4
+48553,Le joli mai,1963,Documentary,165,8.3,7.5,9.0,3
+3379,Heimat: Eine Chronik in elf Teilen - Das Fest der Lebenden und der Toten,1984,Drama,100,8.3,8.5,8.0,11
+34985,Hey Yanquan,2006,Drama,115,8.3,8.86,8.0,19
+9065,Der müde Tod,1921,Drama,70,8.3,8.2,8.0,22
+83542,A cambio de nada,2015,Drama,93,8.3,9.0,8.0,4
+118,The Browning Version,1951,Comedy,90,8.3,8.17,9.0,23
+23132,Biruma no tategoto,1956,Drama,116,8.3,8.31,8.0,85
+41843,Faust,1994,Animation,97,8.3,8.0,9.0,18
+5866,Rebecca,1940,Drama,124,8.3,8.52,8.0,279
+19745,A Taste of Honey,1961,Drama,93,8.3,8.2,8.0,16
+140191,Údolí vcel,1967,Drama,97,8.3,9.0,8.0,3
+14663,U samogo sinego moria,1936,Drama,69,8.3,8.3,8.0,32
+14657,Irma la Douce,1963,Comedy,146,8.3,8.46,8.0,213
+25960,Magdanas lurja,1955,Drama,97,8.3,8.67,8.0,10
+57575,Pro urodov i lyudey,1998,Comedy,93,8.3,8.0,9.0,11
+5968,Back to the Future,1985,Fantasy,118,8.3,8.13,8.0,615
+49,Fail-Safe,1964,Drama,110,8.3,8.29,8.0,71
+65050,Mavro livadi,2009,Drama,104,8.3,7.5,9.0,3
+57098,Jao nok krajok,2009,Drama,82,8.3,8.0,9.0,6
+23277,La règle du jeu,1939,Drama,113,8.3,9.21,7.0,105
+193277,Konferentsiya,2020,Drama,129,8.3,7.5,9.0,3
+57416,Epizoda u zivotu beraca zeljeza,2013,Drama,75,8.3,7.5,9.0,3
+28049,The Road to Glory,1936,War,95,8.3,8.0,9.0,9
+57243,Turistas,2009,Drama,104,8.3,6.5,10.0,3
+23280,Korol' Lir,1970,Drama,139,8.3,8.5,8.0,5
+16942,L'albero degli zoccoli,1978,Drama,170,8.3,9.0,8.0,222
+23291,"America, America",1963,Drama,168,8.3,8.0,9.0,26
+15286,When We Were Kings,1996,Documentary,88,8.3,8.33,8.0,46
+23307,Du Rififi chex les hommes,1954,Noir,116,8.3,8.5,8.0,56
+14064,In the Mouth of Madness,1994,Horror,94,8.3,8.17,8.0,386
+23086,La bête humaine,1938,Drama,101,8.3,8.36,8.0,73
+52298,Kirschblüten - Hanami,2008,Drama,127,8.3,8.0,9.0,5
+28121,Giulia in ottobre,1985,Romantic,60,8.3,8.0,9.0,4
+5274,Picnic at Hanging Rock,1975,Drama,113,8.3,8.14,8.0,293
+38133,Taxi to the Dark Side,2007,Documentary,106,8.3,8.0,9.0,11
+3373,Heimat: Eine Chronik in elf Teilen - Heimatfront,1984,Drama,59,8.3,8.67,8.0,11
+27156,Faustrecht der Freiheit,1975,Drama,123,8.3,8.2,8.0,82
+26064,Mon oncle,1958,Comedy,120,8.3,8.21,8.0,91
+43942,Cave of Forgotten Dreams,2010,Documentary,90,8.3,8.47,8.0,112
+10362,The Lady from Shanghai,1947,Noir,87,8.3,8.35,8.0,144
+23048,Gamlet,1964,Drama,150,8.3,8.0,9.0,15
+157227,Bao xue jiang zhi,2017,Thriller,120,8.3,9.0,8.0,4
+28162,Po Zakonu,1926,Drama,81,8.3,9.33,7.0,12
+4581,Black Narcissus,1947,Drama,100,8.3,8.57,8.0,103
+6119,Salvatore Giuliano,1962,Drama,107,8.3,8.79,8.0,185
+774,"Kiss Me, Stupid",1964,Comedy,123,8.3,8.43,8.0,164
+13424,Une femme douce,1969,Drama,90,8.2,8.29,8.0,32
+25320,Berlin Alexanderplatz,1980,Drama,80,8.2,8.5,8.0,24
+21007,Scener ur ett äktenskap,1973,Drama,155,8.2,8.25,8.0,114
+31480,Espoir - Sierra de Teruel,1945,Drama,90,8.2,9.0,7.0,5
+6439,Une semaine de vacances,1980,Comedy,102,8.2,8.33,8.0,4
+8257,Ascenseur pour l'échafaud,1957,Drama,90,8.2,8.21,8.0,147
+176391,Metri Shesh Va Nim,2019,Thriller,130,8.2,7.33,9.0,4
+2707,Il ferroviere,1955,Drama,120,8.2,8.5,8.0,131
+20363,Rosetta,1999,Drama,91,8.2,8.57,8.0,131
+14337,Elmer Gantry,1960,Drama,146,8.2,8.33,8.0,38
+55780,Peter Pan,1924,Adventure,105,8.2,8.0,8.0,4
+32802,Summer Palace,2006,Drama,140,8.2,8.0,8.0,8
+13384,Fargo,1996,Noir,95,8.2,8.41,8.0,584
+44658,Voyna i mir II: Natasha Rostova,1966,Drama,100,8.2,8.0,8.0,4
+14923,Few of Us,1996,Fantasy,105,8.2,9.17,7.0,19
+3834,The Thief of Bagdad,1924,Adventure,155,8.2,8.14,8.0,31
+44656,Voyna i mir III: 1812 god,1967,Drama,84,8.2,8.0,8.0,4
+11522,That's Entertainment!,1974,Musical,135,8.2,8.0,8.0,9
+6138,Deadly Is the Female,1949,Noir,82,8.2,8.5,8.0,59
+26600,La maschera del demonio,1960,Horror,85,8.2,7.95,8.0,198
+27887,Les parapluies de Cherbourg,1964,Musical,92,8.2,8.3,8.0,43
+128373,Dao ma zei,1986,Drama,88,8.2,8.0,8.0,4
+9023,L'armata Brancaleone,1966,Comedy,120,8.2,8.29,8.0,376
+25034,Tokyo boshoku,1957,Mélo,141,8.2,8.0,8.0,25
+8069,Casque d'or,1952,Drama,96,8.2,8.45,8.0,55
+16012,Au hasard Balthazar,1966,Drama,91,8.2,9.22,7.0,138
+57522,Baek Ya,2012,Drama,75,8.2,9.0,7.0,4
+2427,Duel,1971,Thriller,90,8.2,8.14,8.0,421
+6180,Scaramouche,1952,Adventure,110,8.2,8.43,8.0,58
+43203,Tsumetai nettaigyo ,2010,Thriller,144,8.2,8.5,8.0,93
+30528,Legenda o Suramskoj kreposti,1984,Sperimental,83,8.2,8.33,8.0,17
+20173,Ano natsu ichiban shizukana umi,1991,Drama,101,8.2,8.47,8.0,105
+38578,Avant que j'oublie,2007,Drama,108,8.2,8.33,8.0,4
+24885,Higanbana,1958,Comedy,110,8.2,7.86,8.0,57
+43243,Fedra,1956,Mélo,97,8.2,8.0,8.0,13
+6094,Sabrina,1954,Comedy,113,8.2,8.25,8.0,258
+6239,The Shop Around the Corner,1940,Comedy,97,8.2,7.94,8.0,135
+11778,Il posto,1961,Comedy,105,8.2,8.37,8.0,161
+39496,Inglourious Basterds,2009,War,153,8.2,8.38,8.0,919
+3994,The Long Goodbye,1973,Thriller,112,8.2,8.32,8.0,205
+43167,Prezít svuj zivot (teorie a praxe) ,2010,Animation,105,8.2,8.67,8.0,14
+12698,Amadeus,1984,Biography,158,8.2,8.08,8.0,310
+5717,Vivre sa vie,1962,Drama,85,8.2,7.94,8.0,97
+39503,Obchod na korze,1965,Drama,128,8.2,9.25,7.0,26
+10764,The Graduate,1967,Drama,108,8.2,8.29,8.0,401
+69215,Nayak,1966,Drama,120,8.2,8.0,8.0,5
+19027,La petite vendeuse du soleil,1998,Drama,45,8.2,8.0,8.0,4
+20836,Nashville,1975,Drama,159,8.2,9.04,7.0,176
+14561,Our Hospitality,1923,Comedy,92,8.2,8.18,8.0,36
+20870,Saturday Night and Sunday Morning,1960,Drama,89,8.2,8.2,8.0,32
+20144,Pane e cioccolata,1973,Comedy,115,8.2,8.31,8.0,93
+12742,The Shawshank Redemption,1994,Drama,140,8.2,7.97,8.0,522
+27883,Le mystère Picasso,1956,Documentary,78,8.2,8.1,8.0,33
+3265,The Big Red One,1980,War,109,8.2,8.75,8.0,127
+19591,Roma ore 11,1952,Drama,105,8.2,8.17,8.0,90
+10680,Riso amaro,1948,Drama,100,8.2,8.46,8.0,190
+141139,Canola,2016,Drama,117,8.2,8.67,8.0,6
+10686,Belle de jour,1967,Drama,100,8.2,8.29,8.0,186
+2101,Napló gyermekeimnek,1982,Drama,106,8.2,8.0,8.0,4
+9668,Novecento atto I,1976,Drama,155,8.2,8.45,8.0,275
+23116,The Incredible Shrinking Man,1957,Fantasy,81,8.2,8.15,8.0,104
+27839,Yokihi,1955,Drama,116,8.2,7.8,9.0,15
+22974,A nos amours,1983,Drama,92,8.2,8.0,8.0,27
+25992,Die Zweite Heimat - Chronik einer Jugend - Die ewige Tochter,1992,Drama,120,8.2,7.33,9.0,7
+4586,A Star Is Born,1954,Musical,148,8.2,8.56,8.0,83
+28232,Chorok mulkogi,1997,Drama,111,8.2,8.0,8.0,14
+46083,Tejút,2007,Sperimental,82,8.2,8.67,8.0,8
+81476,Jigoku,1960,Drama,101,8.2,8.0,8.0,11
+22795,Lonesome,1929,Drama,87,8.2,8.25,8.0,10
+22742,Hsimeng rensheng,1993,Drama,142,8.2,8.67,8.0,12
+27981,Das Testament des Dr. Mabuse,1933,Crime,122,8.2,7.58,9.0,36
+15366,La Marquise d'O...,1976,Drama,102,8.2,8.43,8.0,51
+1086,Brief Encounter,1945,Mélo,86,8.2,8.32,8.0,95
+2774,À bout de souffle,1960,Drama,90,8.2,8.65,8.0,252
+17570,Pickup on South Street,1953,Crime,83,8.2,8.6,8.0,57
+45934,Terje Vigen,1917,Drama,52,8.2,8.67,8.0,20
+12312,The Shanghai Gesture,1941,Drama,94,8.2,8.29,8.0,32
+1463,Shoulder Arms,1918,Comedy,46,8.2,8.38,8.0,37
+43758,Memorias del subdesarrollo,1968,Drama,97,8.2,8.5,8.0,8
+41196,O slavnosti a hostech ,1966,Grotesque,71,8.2,8.25,8.0,10
+17699,Character,1997,Drama,98,8.2,8.0,8.0,9
+7074,The Terminator,1984,Fantasy,107,8.2,8.13,8.0,557
+5226,Planet of the Apes,1968,Fantasy,92,8.2,8.0,8.0,282
+9502,Assault on Precinct 13,1976,Thriller,91,8.2,8.29,8.0,326
+70397,Le révélateur,1968,Drama,67,8.2,8.0,8.0,5
+15309,Dharmaga tongjoguro kan kkadalgun,1989,Drama,137,8.2,8.33,8.0,10
+23284,Repulsion,1965,Drama,104,8.2,8.03,8.0,174
+3553,Ivanovo devstvo,1962,Drama,95,8.2,8.29,8.0,123
+8577,Reservoir Dogs,1992,Gangster,106,8.2,8.11,8.0,684
+7553,Czlowiek z marmuru,1976,Drama,160,8.2,8.2,8.0,36
+7642,Il Vangelo secondo Matteo,1964,Drama,142,8.2,9.08,7.0,216
+23257,Confidential Report,1955,Drama,97,8.2,8.08,8.0,81
+7519,The Man Who Knew Too Much,1956,Thriller,119,8.2,8.16,8.0,303
+10514,The Hill,1965,Drama,100,8.2,8.33,8.0,53
+28054,Foolish Wives,1921,Drama,160,8.2,8.38,8.0,32
+11252,Sorcerer,1977,Drama,125,8.2,8.41,8.0,110
+8562,Le silence de la mer,1947,Drama,86,8.2,8.38,8.0,50
+42594,Kisses,2008,Drama,72,8.2,9.0,7.0,5
+46352,Inazuma,1952,Drama,87,8.2,8.33,8.0,5
+4338,Hands Across the Table,1935,Comedy,81,8.2,8.0,8.0,5
+33191,The Man Who Laughs,1928,Drama,110,8.2,8.0,8.0,20
+2119,The Ten Commandments,1956,Biblical,220,8.2,8.23,8.0,161
+74386,Sandokan,1976,Adventure,126,8.2,9.0,7.0,28
+5088,"Irvine, 14 luglio 1926 – West Hollywood, 15 settembre 2017)",1973,Western,122,8.2,8.32,8.0,228
+14016,Nowere to Go,1958,Drama,87,8.2,8.33,8.0,5
+23624,Oasis,2002,Drama,132,8.2,8.0,8.0,64
+70767,Zerrumpelt Herz,2014,Drama,80,8.2,8.0,8.0,4
+27834,Kakushi toride no san-akunin,1958,Adventure,139,8.2,8.17,8.0,106
+2699,Leave Her to Heaven,1945,Drama,111,8.2,8.23,8.0,58
+14346,Die bitteren Tränen der Petra von Kant,1972,Drama,124,8.2,7.87,8.0,84
+3805,King Kong,1933,Adventure,95,8.2,8.22,8.0,166
+2900,On the Waterfront,1954,Drama,108,8.2,8.15,8.0,217
+24280,25th Hour,2002,Drama,134,8.2,8.38,8.0,558
+4941,Lost Horizon,1937,Adventure,118,8.2,8.13,8.0,93
+11445,Per un pugno di dollari,1964,Western,95,8.2,8.13,8.0,509
+36852,Un couple épatant,2002,Comedy,97,8.2,8.0,8.0,4
+9191,Boudu sauvé des eaux,1932,Grotesque,83,8.2,8.29,8.0,40
+37662,There Will Be Blood,2007,Drama,158,8.2,8.24,8.0,487
+18088,Viskiningar och rop,1973,Drama,91,8.2,8.86,7.0,217
+1872,Comrade X,1940,Comedy,89,8.2,8.0,8.0,5
+7038,The Lusty Men,1952,Drama,113,8.2,8.17,8.0,35
+36930,No Country for Old Men,2007,Drama,122,8.2,8.39,8.0,749
+42288,The Crimson Wing: Mystery of the Flamingos ,2008,Documentary,75,8.2,8.67,8.0,25
+11473,Una giornata particolare,1977,Drama,105,8.2,8.23,8.0,294
+45557,Midareru,1964,Drama,98,8.2,8.33,8.0,8
+11138,The Thin Man,1934,Comedy,93,8.2,8.4,8.0,47
+11492,The Gambler,1975,Drama,111,8.2,8.33,8.0,12
+31663,Gösta Berlings saga,1924,Drama,183,8.2,8.0,8.0,8
+9406,The Last of the Mohicans,1992,Adventure,122,8.2,8.46,8.0,366
+12938,Holiday,1938,Comedy,94,8.2,8.38,8.0,70
+21514,Eraserhead,1977,Grotesque,90,8.2,8.57,8.0,321
+16153,Davandeh,1985,Drama,87,8.2,8.38,8.0,24
+27828,Akahige,1965,Drama,185,8.2,7.78,9.0,66
+10796,"They Shoot Horses, Don't They?",1969,Drama,129,8.2,8.32,8.0,93
+15408,Ju Dou,1990,Drama,95,8.2,8.2,8.0,51
+3320,Star Wars,1977,Fantasy,118,8.2,8.18,8.0,503
+36834,Das Leben der Anderen,2006,Drama,137,8.2,8.21,8.0,496
+70139,The War Game,1965,Drama,48,8.1,7.67,9.0,5
+14931,Götterdämmerung,1969,Drama,150,8.1,8.25,8.0,118
+14684,Treasure Island,1990,Adventure,131,8.1,8.0,8.0,12
+25942,Phantom Lady,1944,Noir,87,8.1,8.55,8.0,50
+44144,Chun nyun hack ,2007,Drama,106,8.1,8.4,8.0,11
+27814,Kuroi Ame,1989,Drama,123,8.1,8.25,8.0,13
+1903,Adam's Rib,1949,Comedy,101,8.1,8.18,8.0,90
+71881,Kosac,2014,Drama,98,8.1,7.22,9.0,10
+27817,Fukushu suru wa ware ni ari,1979,Drama,129,8.1,8.0,8.0,24
+2736,Ryan's Daughter,1970,Drama,193,8.1,8.33,8.0,73
+8871,The Swimmer,1968,Drama,94,8.1,7.82,8.0,61
+8457,Underworld,1927,Drama,110,8.1,8.44,8.0,27
+1790,Il conformista,1970,Drama,116,8.1,8.29,8.0,202
+14448,Ed Wood,1995,Biography,127,8.1,8.22,8.0,346
+10928,Beiqing chengshi,1989,Drama,158,8.1,8.6,8.0,28
+4605,Edge of the City,1957,Drama,85,8.1,8.0,8.0,9
+38285,La frontière de l'aube,2008,Drama,100,8.1,8.0,8.0,6
+25782,Le avventure di Pinocchio,1972,Fantasy,134,8.1,8.1,8.0,186
+27794,The Texas Chainsaw Massacre,1974,Horror,83,8.1,7.83,8.0,292
+1595,The Naked City,1948,Crime,112,8.1,8.63,8.0,47
+26219,Les Vampires,1915,Adventure,86,8.1,8.0,8.0,10
+8962,Le doulos,1962,Noir,116,8.1,8.06,8.0,74
+14798,Ansiktet,1958,Drama,101,8.1,8.38,8.0,79
+38477,El Cant dels ocells,2008,Drama,99,8.1,8.63,8.0,20
+25701,Beach Red,1967,War,105,8.1,9.0,7.0,13
+4550,Mr. Smith Goes to Washington,1939,Comedy,130,8.1,8.07,8.0,81
+26197,Les Vampires,1915,Adventure,57,8.1,8.0,8.0,10
+8400,"Zamri, oumri, vokresni",1990,Drama,99,8.1,8.5,8.0,9
+44308,Moartea domnului Lazarescu ,2005,Drama,150,8.1,8.17,8.0,34
+1520,Chinatown,1974,Crime,122,8.1,8.39,8.0,365
+142155,The Freshman,1925,Comedy,76,8.1,9.0,7.0,7
+8386,Love and Death,1975,Comedy,82,8.1,8.03,8.0,242
+1748,I compagni,1963,Drama,130,8.1,8.29,8.0,133
+25520,Koroshi no rakuin,1967,Noir,92,8.1,8.25,8.0,67
+25607,Le roman d'un tricheur,1936,Comedy,77,8.1,8.0,8.0,12
+2783,Fitzcarraldo,1982,Adventure,158,8.1,8.04,8.0,179
+44485,Tanin no kao,1966,Drama,124,8.1,8.0,8.0,22
+70585,Durak,2014,Drama,116,8.1,8.5,8.0,10
+14730,Regarde les hommes tomber,1994,Noir,100,8.1,7.71,8.0,14
+8912,Miracle on 34th Street,1947,Comedy,94,8.1,8.5,8.0,43
+25732,George Washington,2000,Drama,89,8.1,9.0,7.0,6
+43466,Bhutto,2010,Documentary,111,8.1,8.0,8.0,7
+65128,Püha Tõnu kiusamine,2009,Drama,110,8.1,7.4,9.0,10
+23104,Questi fantasmi,1954,Comedy,95,8.1,8.5,8.0,7
+10511,Le procès,1962,Drama,118,8.1,8.11,8.0,102
+7303,Three Women,1977,Drama,130,8.1,8.07,8.0,55
+5287,Detective Story,1951,Drama,105,8.1,8.45,8.0,38
+756,Only Angels Have Wings,1939,Drama,121,8.1,8.27,8.0,55
+17399,Ludwig,1973,Biography,173,8.1,8.14,8.0,102
+28167,The Old Dark House,1932,Grotesque,71,8.1,8.5,8.0,34
+28185,Matka Joanna od Aniolów,1961,Drama,109,8.1,8.25,8.0,21
+28193,Heimat 3 - Chronik einer Zeitenwende,2004,Drama,680,8.1,8.5,8.0,15
+31744,"Steamboat Bill, Jr.",1928,Comedy,71,8.1,8.25,8.0,36
+7243,Toto le Héros,1991,Comedy,90,8.1,8.33,8.0,56
+22798,Pimpernel Smith,1941,Drama,121,8.1,8.0,8.0,6
+231,Alfred the Great,1969,Biography,120,8.1,8.0,8.0,8
+12121,Seishun zankoku monogatari,1960,Drama,96,8.1,8.33,8.0,34
+55454,Dementia,1955,Noir,61,8.1,8.67,8.0,16
+22705,The Pianist,2002,Drama,148,8.1,8.0,8.0,534
+22701,Russkij kovceg,2002,Drama,96,8.1,8.48,8.0,181
+40284,Das weiße Band,2009,Drama,145,8.1,8.37,8.0,291
+22669,Cabiria,1914,Drama,114,8.1,7.86,8.0,43
+11639,"Brutti, sporchi e cattivi",1976,Grotesque,115,8.1,8.17,8.0,208
+11332,Lo scopone scientifico,1972,Comedy,116,8.1,8.19,8.0,134
+6182,Scarface,1983,Gangster,170,8.1,7.94,8.0,541
+9884,Trois couleurs - Rouge,1994,Drama,99,8.1,7.88,8.0,197
+13192,Diexue shuangxiong/The Killer,1989,Noir,110,8.1,8.14,8.0,145
+7492,The Last Waltz,1978,Musical,117,8.1,8.0,8.0,44
+17021,Corps à coeur,1979,Drama,95,8.1,8.0,8.0,15
+7478,The Last Gangster,1937,Action,81,8.1,8.0,8.0,8
+17060,Lost Highway,1997,Noir,134,8.1,7.97,8.0,365
+17073,Jackie Brown,1997,Noir,155,8.1,8.13,8.0,614
+28110,The Merry Widow,1925,Comedy,137,8.1,8.0,8.0,9
+10060,Quai des brumes,1938,Drama,89,8.1,8.0,8.0,56
+196130,Zappa,2020,Documentary,129,8.1,8.33,8.0,8
+3377,Heimat: Eine Chronik in elf Teilen - Der Amerikaner,1984,Drama,119,8.1,8.0,8.0,13
+18897,Bride of Frankenstein,1935,Horror,80,8.1,8.11,8.0,100
+11865,Footlight Parade,1933,Musical,104,8.1,8.0,8.0,5
+23044,Four Friends,1981,Drama,115,8.1,8.15,8.0,37
+799,Ball of Fire,1941,Comedy,111,8.1,8.44,8.0,35
+7333,The Train,1964,War,133,8.1,8.08,8.0,89
+6166,The Philadelphia Story,1940,Comedy,112,8.1,8.45,8.0,122
+9666,Zéro de conduite,1933,Drama,41,8.1,8.53,8.0,84
+28331,Izo,2004,Action,128,8.1,8.4,8.0,42
+11608,The Bad Seed,1956,Drama,126,8.1,8.5,8.0,31
+11550,The Fly,1986,Horror,100,8.1,8.0,8.0,388
+36884,Après la vie,2002,Drama,124,8.1,8.0,8.0,6
+2273,The Women,1939,Comedy,132,8.1,7.89,8.0,42
+4090,Un maledetto imbroglio,1960,Drama,110,8.1,8.22,8.0,133
+40575,Frau im Mond,1929,Drama,163,8.1,7.89,8.0,34
+9791,Le choix des armes,1981,Drama,135,8.1,8.0,8.0,21
+21644,Winchester '73,1950,Western,92,8.1,8.27,8.0,86
+6690,Spartacus,1960,Drama,184,8.1,8.04,8.0,283
+52014,Concursante,2007,Comedy,84,8.1,8.0,8.0,5
+203935,The Velvet Underground,2021,Documentary,110,8.1,7.5,9.0,7
+6507,La femme d'à côté,1981,Mélo,106,8.1,8.16,8.0,202
+9813,The Duellists,1977,Drama,100,8.1,8.0,8.0,235
+430,Anatomy of a Murder,1959,Drama,160,8.1,8.26,8.0,135
+18182,Terminus Paradis,1998,Drama,100,8.1,7.0,9.0,29
+40746,La vie nouvelle,2002,Drama,102,8.1,8.0,8.0,25
+151887,The Irishman,2019,Biography,210,8.1,8.63,8.0,331
+34552,Voschodzenie,1977,Drama,104,8.1,8.3,8.0,42
+4106,Mamma Roma,1962,Drama,114,8.1,8.48,8.0,255
+13411,Heaven Can Wait,1943,Comedy,101,8.1,8.06,8.0,94
+624,Arsenic and Old Lace,1944,Comedy,113,8.1,8.14,8.0,224
+5694,3:10 to Yuma,1957,Western,92,8.1,8.14,8.0,137
+12470,Bring Me the Head of Alfredo Garcia,1974,Drama,115,8.1,8.43,8.0,133
+6282,The Executioner's Song,1982,Drama,135,8.1,8.0,8.0,6
+3323,The Warriors,1979,Action,94,8.1,7.83,8.0,454
+22414,Hable con ella,2001,Mélo,112,8.1,8.31,8.0,307
+2573,Europa '51,1952,Drama,110,8.1,8.44,8.0,124
+5695,Cet obscur objet du désir,1977,Grotesque,110,8.1,8.22,8.0,128
+276,Skrijanc na nitick,1969,Drama,104,8.1,8.0,8.0,16
+5689,Dog Day Afternoon,1975,Drama,125,8.1,8.1,8.0,331
+78167,El Abrazo de la Serpiente,2015,Adventure,125,8.1,8.3,8.0,76
+20868,Criss Cross,1949,Noir,87,8.1,8.13,8.0,46
+5442,Raiders of the Lost Ark,1981,Adventure,116,8.1,7.97,8.0,557
+9960,Alice in den Städten,1973,Drama,110,8.1,8.31,8.0,90
+11582,Judgment at Nuremberg,1961,Drama,178,8.1,8.06,8.0,111
+28579,Sanbiki no samurai,1964,Adventure,95,8.1,8.0,8.0,20
+5485,"Rachel, Rachel",1968,Drama,101,8.1,8.0,8.0,17
+21959,McCabe and Mrs. Miller,1971,Western,121,8.1,8.22,8.0,107
+5177,Per qualche dollaro in più,1965,Western,130,8.1,7.75,9.0,468
+21240,Le silencieux,1972,Spy,100,8.1,7.5,9.0,10
+11671,Bad Lieutenant,1992,Drama,93,8.1,8.11,8.0,277
+2459,Johnny Got His Gun,1971,Drama,110,8.1,8.07,8.0,97
+27918,City Girl,1929,Drama,89,8.1,7.86,8.0,13
+11680,Some Came Running,1958,Mélo,130,8.1,8.22,8.0,60
+6073,The Roaring Twenties,1939,Drama,106,8.1,8.1,8.0,32
+3416,The Party,1968,Comedy,99,8.1,8.06,8.0,289
+11194,Tristana,1970,Drama,99,8.1,8.29,8.0,72
+4810,Carrie,1951,Drama,118,8.1,8.2,8.0,26
+14168,Sonatine,1993,Noir,94,8.1,8.38,8.0,255
+39560,Un héros très discret,1996,Drama,107,8.1,7.75,9.0,8
+1286,Top Hat,1935,Musical,101,8.1,8.4,8.0,83
+8151,The Sting,1974,Comedy,130,8.1,8.17,8.0,306
+11140,The Awful Truth,1937,Comedy,91,8.1,8.38,8.0,57
+7532,Midnight Cowboy,1969,Drama,104,8.1,8.1,8.0,183
+16199,The Boys in the Band,1970,Drama,119,8.1,8.17,8.0,56
+216459,Skazka,2022,Sperimental,78,8.1,8.0,8.0,12
+14148,Il caso Mattei,1972,Biography,118,8.1,8.22,8.0,189
+42343,"Institute Benjamenta, or This Dream People Call Human Life ",1995,Drama,104,8.1,8.0,8.0,10

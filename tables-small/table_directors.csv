@@ -1,0 +1,507 @@
+id,name
+1,Abbas Kiarostami
+2,Abel Ferrara
+3,Abel Gance
+4,Abram Room
+5,Ademir Kenovic
+6,Agnés Varda
+7,Ahmet Ulucay
+8,Akira Kurosawa
+9,Alain Corneau
+10,Alain Resnais
+11,Alan Mak
+12,Albert Serra
+13,Aleksandr Askoldov
+14,Aleksandr P. Dovzenko
+15,Aleksandr Sokurov
+16,Aleksey Balabanov
+17,Alessandro Capone
+18,Alex Gibney
+19,Alex Winter
+20,Alfred E. Green
+21,Alfred Hitchcock
+22,Alicia Scherson
+23,Amir Naderi
+24,Amit Dutta
+25,Andreas Marschall
+26,Andrei Tarkovsky
+27,Andrew Lau
+28,Andrzej Munk
+29,Andrzej Wajda
+30,Andrzej Zulawski
+31,András Kovács
+32,André De Toth
+33,André Malraux
+34,Andy Grieve
+35,Anocha Suwichakornpong
+36,Anthony Asquith
+37,Anthony Mann
+38,Arnold Laven
+39,Arthur Joffé
+40,Arthur Penn
+41,Artur Aristakisjan
+42,Asghar Farhadi
+43,Bahram Beizai
+44,Beau Bridges
+45,Benedek Fliegauf
+46,Bernardo Bertolucci
+47,Bernhard Wicki
+48,Bertrand Blier
+49,Bertrand Tavernier
+50,Billy Wilder
+51,Blake Edwards
+52,Boris Barnet
+53,Brett Gaylor
+54,Brian De Palma
+55,Bruce LaBruce
+56,Budd Boetticher
+57,Buster Keaton
+58,Béla Tarr
+59,Carl Theodor Dreyer
+60,Carlos Conceição
+61,Carlos Saura
+62,Carmelo Bene
+63,Carol Reed
+64,Catarina Vasconcelos
+65,Cecil B. DeMille
+66,Chang
+67,Chang Cheh
+68,Chang-dong Lee
+69,Chantal Akerman
+70,Charles Chaplin
+71,Charles Crichton
+72,Charles Laughton
+73,Charles Reisner
+74,Charles Vidor
+75,Chris Marker
+76,Christian Vincent
+77,Ciro Guerra
+78,Claire Denis
+79,Claire Simon
+80,Clara Kuperberg
+81,Claude Pinoteau
+82,Clint Eastwood
+83,Clive Donner
+84,Cornel Wilde
+85,Costa-Gavras
+86,Cristi Puiu
+87,Dalton Trumbo
+88,Dan Poole
+89,Daniel Auteuil
+90,Daniel Guzmán
+91,Daniele Gaglianone
+92,Danis Tanovic
+93,David Cronenberg
+94,David Easteal
+95,David Gordon Green
+96,David Lean
+97,David Lynch
+98,David W. Griffith
+99,Delmer Daves
+100,Derek Jarman
+101,Detlev Buck
+102,Diego Olivares
+103,Dino Risi
+104,Djibril Diop Mambety
+105,Dodo Abashidze
+106,Don Siegel
+107,Donald Crisp
+108,Doris Dörrie
+109,Douglas Sirk
+110,Duane Baughman
+111,Edgar G. Ulmer
+112,Edgar Reitz
+113,Eduardo De Filippo
+114,Edward Ludwig
+115,Edward Yang
+116,Elchin Musaoglu
+117,Elem Klimov
+118,Elia Kazan
+119,Elio Petri
+120,Elmar Klos
+121,Emeric Pressburger
+122,Emilio Fernández
+123,Enrico Pitzianti
+124,Eric Rohmer
+125,Erich Von Stroheim
+126,Ermanno Olmi
+127,Ernest B. Schoedsack
+128,Ernst Lubitsch
+129,Ethan Coen
+130,Ettore Scola
+131,Eugène Green
+132,Eytan Fox
+133,F.W. Murnau
+134,Federico Fellini
+135,Federico Sfascia
+136,Feo Aladag
+137,Fernand Léger
+138,Fernando León de Aranoa
+139,Fien Troch
+140,Florian Henckel von Donnersmarck
+141,Francesco Rosi
+142,Francis Ford Coppola
+143,Franco Brusati
+144,Frank Capra
+145,Frank Darabont
+146,Frank Lloyd
+147,Frank Perry
+148,Franklin J. Schaffner
+149,Frantisek Vlácil
+150,François Truffaut
+151,Fraser C. Heston
+152,Fred C. Newmeyer
+153,Fred Kelemen
+154,Fred Zinnemann
+155,Fritz Lang
+156,Gaetano Di Vaio
+157,Gakuryu Ishii
+158,Gene Kelly
+159,Georg Wilhelm Pabst
+160,George A. Romero
+161,George Cukor
+162,George Lucas
+163,George Roy Hill
+164,George Seaton
+165,George Sidney
+166,Gerald Kargl
+167,Germaine Dulac
+168,Gillo Pontecorvo
+169,Giovanni Pastrone
+170,Giuseppe De Santis
+171,Giuseppe Tornatore
+172,Gordon Chan
+173,Gregory Colbert
+174,Grigorij Kozincev
+175,Guru Dutt
+176,Gye-soo Jeon
+177,György Fehér
+178,Hae-sung Song
+179,Harold Clurman
+180,Harold S. Bucquet
+181,Harry Horner
+182,Hee-il LeeSong
+183,Henri Verneuil
+184,Henri-Georges Clouzot
+185,Henry Cornelius
+186,Henry Hathaway
+187,Henry King
+188,Herbert Brenon
+189,Herbert J. Biberman
+190,Hideo Gosha
+191,Hirokazu Koreeda
+192,Hiroshi Teshigahara
+193,Hiroyuki Tanaka
+194,Hou Hsiao-hsien
+195,Howard Hawks
+196,Ingmar Bergman
+197,Ira Sachs
+198,Isaac Florentine
+199,István Szabó
+200,Ivan I. Tverdovskiy
+201,Jack Arnold
+202,Jack Clayton
+203,Jack Haley jr.
+204,Jack Starrett
+205,Jaco Van Dormael
+206,Jacques Audiard
+207,Jacques Becker
+208,Jacques Demy
+209,Jacques Nolot
+210,Jacques Rivette
+211,Jacques Tati
+212,Jacques Tourneur
+213,James Cameron
+214,James Ivory
+215,James Whale
+216,Jan Cvitkovic
+217,Jan Nemec
+218,Jan Svankmajer
+219,Javier Fesser
+220,Je-kyu Kang
+221,Jean Epstein
+222,Jean Eustache
+223,Jean Grémillon
+224,Jean Negulesco
+225,Jean Renoir
+226,Jean Vigo
+227,Jean-Luc Godard
+228,Jean-Marc Barr
+229,Jean-Pierre Dardenne
+230,Jean-Pierre Melville
+231,Jerzy Kawalerowicz
+232,Jiri Menzel
+233,Jirí Krejcík
+234,Joachim Hess
+235,Joel Coen
+236,John Carpenter
+237,John Cassavetes
+238,John Ford
+239,John Frankenheimer
+240,John Huston
+241,John Korty
+242,John Landis
+243,John M. Stahl
+244,John Parker
+245,John Sayles
+246,John Schlesinger
+247,John Woo
+248,Johnny O'Hara
+249,Jon Kroll
+250,Jonas Mekas
+251,Jonathan Demme
+252,Joon-ik Lee
+253,Jorge Gaggero
+254,Josef Von Sternberg
+255,Joseph Anthony
+256,Joseph H. Lewis
+257,Joseph L. Mankiewicz
+258,Joseph Losey
+259,Joseph Pevney
+260,Joseph Sargent
+261,Jules Dassin
+262,Julien Duvivier
+263,July Jung
+264,Juraj Herz
+265,Ján Kadár
+266,János Zsombolyai
+267,Kaneto Shindo
+268,Kang Cheng
+269,Karel Reisz
+270,Karel Zeman
+271,Keisuke Kinoshita
+272,Kenji Mizoguchi
+273,Ki-young Kim
+274,King Hu
+275,King Vidor
+276,Kon Ichikawa
+277,Konrad Wolf
+278,Krzysztof Kieslowski
+279,Kwon-taek Im
+280,Lance Daly
+281,Larisa Shepitko
+282,Lauren Lazin
+283,Lav Diaz
+284,Lawrence Schiller
+285,Leander Ward
+286,Lee Man-hui
+287,Leo McCarey
+288,Leon Gast
+289,Leslie Howard
+290,Lev Kulesov
+291,Lewis Milestone
+292,Leyla Yilmaz
+293,Lloyd Bacon
+294,Louis C.K.
+295,Louis Feuillade
+296,Louis Malle
+297,Luc Dardenne
+298,Lucas Belvaux
+299,Luchino Visconti
+300,Lucian Pintilie
+301,Luigi Comencini
+302,Luis Buñuel
+303,Léontine Sagan
+304,Mahamat-Saleh Haroun
+305,Man Ray
+306,Manuel Mur Oti
+307,Marcel Carné
+308,Marcel Duchamp
+309,Marco Bellocchio
+310,Marco Berger
+311,Marco Ferreri
+312,Mariano Llinás
+313,Mario Bava
+314,Mario Monicelli
+315,Mark Jean
+316,Mark Sandrich
+317,Martin Ritt
+318,Martin Scorsese
+319,Martti Helde
+320,Masaki Kobayashi
+321,Matthew Aeberhard
+322,Matthias Glasner
+323,Maurice Pialat
+324,Maurice Tourneur
+325,Mauritz Stiller
+326,Max Ophüls
+327,Max Reinhardt
+328,Mel Brooks
+329,Merian C. Cooper
+330,Mervyn LeRoy
+331,Michael Cimino
+332,Michael Curtiz
+333,Michael Haneke
+334,Michael Mann
+335,Michael Powell
+336,Michelangelo Antonioni
+337,Michele Soavi
+338,Miguel Gomes
+339,Mike Nichols
+340,Mike Van Diem
+341,Mikio Naruse
+342,Miklos Jancso
+343,Milos Forman
+344,Mitchell Leisen
+345,Mohsen Makhmalbaf
+346,Morgan Neville
+347,Mu Fei
+348,Márta Mészáros
+349,Nagisa Oshima
+350,Nelo Risi
+351,Nicholas Ray
+352,Nobuo Nakagawa
+353,Norman McLeod
+354,Oliver Stone
+355,Orson Welles
+356,Otto Preminger
+357,Pascal Arnold
+358,Patrick Sheane Duncan
+359,Paul Czinner
+360,Paul Leni
+361,Paul Newman
+362,Paul Thomas Anderson
+363,Paul Vecchiali
+364,Paul Wendkos
+365,Pedro Almodóvar
+366,Peicheng Pan
+367,Pen-ek Ratanaruang
+368,Peter Bogdanovich
+369,Peter Greenaway
+370,Peter Watkins
+371,Peter Weir
+372,Petr Zelenka
+373,Philippe Garrel
+374,Philippe Grandrieux
+375,Philippe Harel
+376,Pier Paolo Pasolini
+377,Pierre Granier-Deferre
+378,Pierre Lhomme
+379,Pietro Germi
+380,Preston Sturges
+381,Pál Fejös
+382,Quentin Tarantino
+383,Radley Metzger
+384,Rafaël Cherkaski
+385,Rainer Werner Fassbinder
+386,Raoul Ruiz
+387,Raoul Walsh
+388,René Clair
+389,René Clément
+390,Rezo Chkheidze
+391,Richard Brooks
+392,Richard Rosson
+393,Ridley Scott
+394,Ringo Lam
+395,Ritwik Ghatak
+396,Robert Aldrich
+397,Robert Altman
+398,Robert Bresson
+399,Robert Gordon
+400,Robert Hamer
+401,Robert J. Flaherty
+402,Robert Mulligan
+403,Robert Rossen
+404,Robert Siodmak
+405,Robert Wiene
+406,Robert Zemeckis
+407,Roberto Gavaldón
+408,Roberto Rossellini
+409,Rodrigo Cortés
+410,Roman Polanski
+411,Rouben Mamoulian
+412,Rupert Julian
+413,Ryszard Bugajski
+414,Sacha Guitry
+415,Saeed Roustayi
+416,Salvatore Mereu
+417,Sam Peckinpah
+418,Sam Taylor
+419,Sam Wood
+420,Samuel Fuller
+421,Sandro Baldoni
+422,Sandro Dionisio
+423,Sang-soo Hong
+424,Satyajit Ray
+425,Seijun Suzuki
+426,Semih Kaplanoglu
+427,Sergei M. Eisenstein
+428,Sergej Paradzanov
+429,Sergey Bondarchuk
+430,Sergio Leone
+431,Sergio Sollima
+432,Serif Gören
+433,Seth Holt
+434,Shadi Abdessalam
+435,Shahram Mokri
+436,Sharunas Bartas
+437,Shohei Imamura
+438,Sidney Bernstein
+439,Sidney Lumet
+440,Silvio Soldini
+441,Sion Sono
+442,Spike Lee
+443,Stanley Donen
+444,Stanley Kramer
+445,Stanley Kubrick
+446,Steno
+447,Stephen Quay
+448,Steve McLean
+449,Steven Spielberg
+450,Sun Chung
+451,Sydney Pollack
+452,Tadeusz Konwicki
+453,Takashi Miike
+454,Takeshi Kitano
+455,Teinosuke Kinugasa
+456,Tengiz Abuladze
+457,Terence Davies
+458,Terrence Malick
+459,Theo Anghelopoulos
+460,Tim Burton
+461,Timm Kröger
+462,Timothy Quay
+463,Tobe Hooper
+464,Tod Browning
+465,Todd Haynes
+466,Tomàs Gutiérrez Alea
+467,Tony Richardson
+468,Toshiya Fujita
+469,Tsai Ming-liang
+470,Vardis Marinakis
+471,Veiko Õunpuu
+472,Victor Erice
+473,Victor Fleming
+474,Victor Sjöström
+475,Vincente Minnelli
+476,Vitali Kanevski
+477,Vittorio De Seta
+478,Vittorio De Sica
+479,Vsevolod Pudovkin
+480,W.S. Van Dyke
+481,Walter Hill
+482,Werner Herzog
+483,Werner Schroeter
+484,William A. Wellman
+485,William Dieterle
+486,William Friedkin
+487,William Wyler
+488,Wim Wenders
+489,Wojciech J. Has
+490,Wolfgang Kohlhaase
+491,Wong Kar-wai
+492,Woody Allen
+493,Xavier Beauvois
+494,Xiaogang Feng
+495,Yang Fen-Gliang
+496,Yasujiro Ozu
+497,Ye Lou
+498,Yilmaz Güney
+499,Yoji Yamada
+500,Yong Kyun Bae
+501,Yonggang Wu
+502,Yue Dong
+503,Yuriy Bykov
+504,Zhang Yimou
+505,Zhuangzhuang Tian
+506,Zvonimir Juric
