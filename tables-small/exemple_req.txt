@@ -1,7 +1,0 @@
-SELECT *
-FROM gl.actors 
-JOIN gl.play ON gl.actors.id = gl.play.actor_id 
-JOIN gl.movies ON gl.play.movie_id = gl.movies.movie_id
-JOIN gl.come_from ON gl.movies.movie_id = gl.come_from.movie_id
-JOIN gl.countries ON gl.come_from.country_id = gl.countries.id
-WHERE actors.name = 'Léa Seydoux'
