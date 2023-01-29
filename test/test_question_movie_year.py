@@ -21,5 +21,5 @@ class TestQuestionMovieYear(TestCase):
         correct_answer = question.get_correct_answer()
         # THEN
         self.assertIsInstance(question, QuestionMovieYear)
-        self.assertIsEqual(result, "When was Blade Runner released?")
-        self.assertIsEqual(correct_answer, 1982)
+        self.assertEqual(result, "When was Blade Runner released?")
+        self.assertEqual(correct_answer, 1982)
