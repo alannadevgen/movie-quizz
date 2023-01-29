@@ -29,7 +29,7 @@ class QuestionMovieYear(QuestionMovie, AbstractQuestion):
         self.question_type = "movie year"
 
     def display_question(self):
-        return f"When did the film {self.title} come out?"
+        return f"When was {self.title} released?"
 
     def get_correct_answer(self):
         return self.year
