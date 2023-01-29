@@ -42,10 +42,10 @@ def insert_into(csv_file, table_name, final_file, sep=','):
 
 # call the function
 final_file = 'init.sql'
-insert_into('tables-small/table_actors.csv', 'actors', final_file)
-insert_into('tables-small/table_countries.csv', 'countries', final_file)
-insert_into('tables-small/table_directors.csv', 'directors', final_file)
-insert_into('tables-small/table_movies.csv', 'movies', final_file)
-insert_into('tables-small/table_play.csv', 'play', final_file)
-insert_into('tables-small/table_manage.csv', 'manage', final_file)
-insert_into('tables-small/table_come_from.csv', 'come_from', final_file)
+insert_into('data/table_actors.csv', 'actors', final_file)
+insert_into('data/table_countries.csv', 'countries', final_file)
+insert_into('data/table_directors.csv', 'directors', final_file)
+insert_into('data/table_movies.csv', 'movies', final_file)
+insert_into('data/table_play.csv', 'play', final_file)
+insert_into('data/table_manage.csv', 'manage', final_file)
+insert_into('data/table_come_from.csv', 'come_from', final_file)
