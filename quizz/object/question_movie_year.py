@@ -6,7 +6,7 @@ class QuestionMovieYear(QuestionMovie, AbstractQuestion):
     def __init__(
             self,
             movie_id,
-            title
+            title,
             year,
             genre,
             duration,
@@ -27,3 +27,9 @@ class QuestionMovieYear(QuestionMovie, AbstractQuestion):
             total_votes
         )
         self.question_type = "movie year"
+
+    def display_question(self):
+        return f"When did the film {self.title} come out?"
+
+    def get_correct_answer(self):
+        return self.year
