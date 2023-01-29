@@ -13,5 +13,5 @@ source venv/bin/activate
 
 ## Contributors
 
-Alanna DEVLIN-GENIN
-Camille LE POTIER
+* Alanna DEVLIN-GENIN
+* Camille LE POTIER
