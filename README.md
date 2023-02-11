@@ -9,6 +9,7 @@ git clone https://github.com/alannagenin/movie-quizz.git
 cd movie-quizz
 python -m venv venv
 source venv/bin/activate
+docker-compose up --build
 ```
 
 ## Contributors
