@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 from sqlalchemy import create_engine, text
-from quizz.CRUD import crud
+from CRUD import crud
 import os
 import dotenv
 
@@ -45,7 +45,7 @@ def create_movie():
                 id = crud.get_id('countries', 'id', 'name', country)
                 if not id:
                     id = crud.new_id("countries", "id")
-                    crud.get_insert_table_two_col("countries", 'id', "name", id, country)
+                    crud.get_insert_table_id_name("countries", 'id', "name", id, country)
                 countries_id.append(id)
 
         if 'actors' in list(res.keys()):
@@ -53,7 +53,7 @@ def create_movie():
                 id = crud.get_id('actors', 'id', 'name', actor)
                 if not id:
                     id = crud.new_id("actors", "id")
-                    crud.get_insert_table_two_col("countries", 'id', "name", id, actor)
+                    crud.get_insert_table_id_name("actors", 'id', "name", id, actor)
                 actors_id.append(id)
 
         if 'directors' in list(res.keys()):
@@ -61,7 +61,7 @@ def create_movie():
                 id = crud.get_id('directors', 'id', 'name', director)
                 if not id:
                     id = crud.new_id("directors", "id")
-                    crud.get_insert_table_two_col("directors", 'id', "name", id, director)
+                    crud.get_insert_table_id_name("directors", 'id', "name", id, director)
                 directors_id.append(id)
 
         if 'movie' in list(res.keys()):
@@ -77,29 +77,22 @@ def create_movie():
                 crud.get_insert_movies(movie_id, title, year, genre, duration)
         
         for id in countries_id:
-             crud.get_insert_table_two_col("come_from", 'movie_id', "country_id", movie_id, id)
+             crud.get_insert_table_id_id("come_from", 'movie_id', "country_id", movie_id, id)
         
         for id in actors_id:
-             crud.get_insert_table_two_col("play", 'movie_id', "actor_id", movie_id, id)
+             crud.get_insert_table_id_id("play", 'movie_id', "actor_id", movie_id, id)
 
         for id in directors_id:
-             crud.get_insert_table_two_col("manage", 'movie_id', "director_id", movie_id, id)
+             crud.get_insert_table_id_id("manage", 'movie_id', "director_id", movie_id, id)
         
         if title:
-            id = crud.get_id('movies', 'id', 'name', title)
-            return jsonify(status="True", new_movie_id=dict(id))
+            final = {}
+            id = crud.get_id('movies', 'movie_id', 'title', title)
+            if id:
+                final['id'] = id
+                final['movie_id'] = movie_id
+            return jsonify(status="True", new_movie_id=final)
     return jsonify(status="False")
 
-# @app.route('/api/v1/movie/', methods=['POST'])
-# def create_movie():
-#     res = request.get_json()
-#     if res:
-#         if 'id' in list(res.keys()):
-#             id = res['id']
-#             list_movies.append(id)
-#             return jsonify(status='True', 
-#             movie = {"id": id}, message='Movie created')
-#     return jsonify(status='False')
-
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=80, debug=True)

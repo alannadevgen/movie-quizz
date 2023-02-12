@@ -4,8 +4,10 @@ COPY requirements.txt requirements.txt
 
 RUN pip install -r requirements.txt
 
+COPY setup.py setup.py
+
+RUN pip install -e .
+
 COPY . .
 
-# WORKDIR /webservice
-
-ENTRYPOINT ["python", "webservice/app.py", "flask", "run", "--host=0.0.0.0", "--port=80"]
+ENTRYPOINT ["python", "webservice/app.py"]

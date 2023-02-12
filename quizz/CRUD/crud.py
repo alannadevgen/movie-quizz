@@ -21,7 +21,7 @@ def new_id(table, id_col):
 
 def get_id(table, id_col, name_col, value):
     db = create_engine(db_string)
-    query = "SELECT %s FROM %s WHERE lower(%s) LIKE lower(%s);"%(id_col, table, name_col, value)
+    query = "SELECT %s FROM %s WHERE lower(%s) LIKE lower('%s');"%(id_col, table, name_col, value)
     with db.connect() as conn:
         res = conn.execute(text(query)).fetchall()
         if len(res):
@@ -30,10 +30,17 @@ def get_id(table, id_col, name_col, value):
             id = None
     return id
 
-def get_insert_table_two_col(table, col1, col2, value1, value2):
+def get_insert_table_id_name(table, id, name, value_id, value_name):
     db = create_engine(db_string)
     query = "INSERT INTO %s (%s,%s) VALUES \
-                        (%s,  %s);", (table, col1, col2, value1, value2)
+                        (%s,  '%s');"%(table, id, name, value_id, value_name)
+    with db.connect() as conn:
+        conn.execute(text(query))
+
+def get_insert_table_id_id(table, id1, id2, value1, value2):
+    db = create_engine(db_string)
+    query = "INSERT INTO %s (%s,%s) VALUES \
+                        (%s,  %s);"%(table, id1, id2, value1, value2)
     with db.connect() as conn:
         conn.execute(text(query))
 
@@ -41,7 +48,7 @@ def get_insert_table_two_col(table, col1, col2, value1, value2):
 def get_insert_movies(id_value, title_value, year_value, genre_value, duration_value):
     db = create_engine(db_string)
     query = "INSERT INTO movies (movie_id,title,year,genre,duration,avg_vote,critics_vote,public_vote,total_votes) \
-            VALUES (%s,  %s, %s, %s, %s, null, null, null, null);\
-            ", (id_value, title_value, year_value, genre_value, duration_value)
+            VALUES (%s,  '%s', %s, '%s', %s, null, null, null, null);\
+            "%(id_value, title_value, year_value, genre_value, duration_value)
     with db.connect() as conn:
         conn.execute(text(query))
