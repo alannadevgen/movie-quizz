@@ -16,23 +16,64 @@ db_port = '5432'
 db_string = 'postgresql://{}:{}@{}:{}/{}'.format(db_user, db_pass, db_host, db_port, db_name)
 
 
-@app.route('/api/v1/actor/<id>', methods=['GET'])
-def get_actor(id):
-    db = create_engine(db_string)
-    query = "SELECT * FROM actors WHERE actors.id = '%s' ;"%(id)
-    with db.connect() as conn:
-        res = conn.execute(text(query)).fetchall()
+@app.route('/api/v1/actor/id/<id>', methods=['GET'])
+def get_actor_id(id):
+    name = crud.get_name("actors", "id", "name", id)
     final = {}
-    if res:
-        for row in res:
-            final['id'] = row[0]
-            final['name'] = row[1]
+    if name:
+        final['name'] = name
         return jsonify(status="True",
         actor = final)
     return jsonify(status="False")
 
+
+@app.route('/api/v1/actor/name/<name>', methods=['GET'])
+def get_actor_name(name):
+    id = crud.get_id("actors", "id", "name", name)
+    final = {}
+    if id:
+        final['id'] = id
+        return jsonify(status="True",
+        actor = final)
+    return jsonify(status="False")
+
+@app.route('/api/v1/movie/id/<id>', methods=['GET'])
+def get_movie_id(id):
+    title = crud.get_name("movies", "movie_id", "title", id)
+    final = {}
+    if title:
+        final['title'] = title
+        return jsonify(status="True",
+        movie = final)
+    return jsonify(status="False")
+
+
+@app.route('/api/v1/movie/title/<title>', methods=['GET'])
+def get_movie_title(title):
+    id = crud.get_id("movies", "movie_id", "title", title)
+    final = {}
+    if id:
+        final['id'] = id
+        return jsonify(status="True",
+        movie = final)
+    return jsonify(status="False")
+
 @app.route('/api/v1/movie', methods=['POST'])
 def create_movie():
+    '''
+    POST request example (json body to put in INSOMNIA or POSTMAN)
+    {
+	"movie": {
+		"title": "Funny koalas",
+		"year": 2023,
+		"genre": "Comedy",
+		"duration": 90
+	},
+	"countries": ["Australia"],
+	"actors": ["Alice", "Bob"],
+	"directors": ["Charlie"]
+    }
+    '''
     title = None
     countries_id = []
     actors_id = []
@@ -45,7 +86,7 @@ def create_movie():
                 id = crud.get_id('countries', 'id', 'name', country)
                 if not id:
                     id = crud.new_id("countries", "id")
-                    crud.get_insert_table_id_name("countries", 'id', "name", id, country)
+                    crud.insert_table_id_name("countries", 'id', "name", id, country)
                 countries_id.append(id)
 
         if 'actors' in list(res.keys()):
@@ -53,7 +94,7 @@ def create_movie():
                 id = crud.get_id('actors', 'id', 'name', actor)
                 if not id:
                     id = crud.new_id("actors", "id")
-                    crud.get_insert_table_id_name("actors", 'id', "name", id, actor)
+                    crud.insert_table_id_name("actors", 'id', "name", id, actor)
                 actors_id.append(id)
 
         if 'directors' in list(res.keys()):
@@ -61,7 +102,7 @@ def create_movie():
                 id = crud.get_id('directors', 'id', 'name', director)
                 if not id:
                     id = crud.new_id("directors", "id")
-                    crud.get_insert_table_id_name("directors", 'id', "name", id, director)
+                    crud.insert_table_id_name("directors", 'id', "name", id, director)
                 directors_id.append(id)
 
         if 'movie' in list(res.keys()):
@@ -74,16 +115,16 @@ def create_movie():
                 year = movie['year']
                 genre = movie['genre']
                 duration = movie['duration']
-                crud.get_insert_movies(movie_id, title, year, genre, duration)
+                crud.insert_movies(movie_id, title, year, genre, duration)
         
         for id in countries_id:
-             crud.get_insert_table_id_id("come_from", 'movie_id', "country_id", movie_id, id)
+             crud.insert_table_id_id("come_from", 'movie_id', "country_id", movie_id, id)
         
         for id in actors_id:
-             crud.get_insert_table_id_id("play", 'movie_id', "actor_id", movie_id, id)
+             crud.insert_table_id_id("play", 'movie_id', "actor_id", movie_id, id)
 
         for id in directors_id:
-             crud.get_insert_table_id_id("manage", 'movie_id', "director_id", movie_id, id)
+             crud.insert_table_id_id("manage", 'movie_id', "director_id", movie_id, id)
         
         if title:
             final = {}
@@ -92,6 +133,26 @@ def create_movie():
                 final['id'] = id
                 final['movie_id'] = movie_id
             return jsonify(status="True", new_movie_id=final)
+    return jsonify(status="False")
+
+@app.route('/api/v1/movie/<title>', methods=['DELETE'])
+def delete_movie(title):
+    '''
+    '''
+    movie_id = crud.get_id("movies", "movie_id", "title", title)
+    if movie_id:
+
+        # delete using movie_id
+        crud.delete_values_table_id("come_from", "movie_id", movie_id)
+        crud.delete_values_table_id("play", "movie_id", movie_id)
+        crud.delete_values_table_id("manage", "movie_id", movie_id)
+        crud.delete_values_table_id("movies", "movie_id", movie_id)
+
+        
+        movie_id = crud.get_id('movies', 'movie_id', 'title', title)
+        if not movie_id:
+            return jsonify(status="True")
+    
     return jsonify(status="False")
 
 if __name__ == '__main__':
