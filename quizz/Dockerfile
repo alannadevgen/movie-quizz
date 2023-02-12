@@ -6,6 +6,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-WORKDIR /webservice
+# WORKDIR /webservice
 
-ENTRYPOINT ["flask", "run", "--host=0.0.0.0", "--port=80"]
+ENTRYPOINT ["python", "webservice/app.py", "flask", "run", "--host=0.0.0.0", "--port=80"]
