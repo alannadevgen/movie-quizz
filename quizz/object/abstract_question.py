@@ -8,3 +8,7 @@ class AbstractQuestion(ABC):
     @abstractmethod
     def display_question(self):
         pass
+
+    @abstractmethod
+    def get_correct_answer(self):
+        pass
