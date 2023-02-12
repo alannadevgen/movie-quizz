@@ -30,6 +30,17 @@ def get_id(table, id_col, name_col, value):
             id = None
     return id
 
+def get_ids(table, id_col, name_col, value):
+    db = create_engine(db_string)
+    query = "SELECT %s FROM %s WHERE lower(%s) LIKE lower('%s');"%(id_col, table, name_col, value)
+    with db.connect() as conn:
+        res = conn.execute(text(query)).fetchall()
+        ids = []
+        if len(res):
+            for id in res:
+                ids.append(int(id[id_col]))
+    return ids
+
 def get_name(table, id_col, name_col, value):
     db = create_engine(db_string)
     query = "SELECT %s FROM %s WHERE %s=%s;"%(name_col, table, id_col, value)
@@ -41,44 +52,35 @@ def get_name(table, id_col, name_col, value):
             name = None
     return name
 
-# def get_actors_movie(movie_id):
-#     db = create_engine(db_string)
-#     query = "SELECT actors.id FROM actors JOIN play ON actors.id = play.actor_id\
-#         JOIN movies ON play.movie_id = movies.movie_id\
-#         WHERE movies.movie_id = %s ;"%(movie_id)
-#     with db.connect() as conn:
-#         res = conn.execute(text(query)).fetchall()
-#         if len(res):
-#             id = list(res)
-#         else:
-#             id = None
-#     return id
+def get_info_movies_name(name_col, value):
+    db = create_engine(db_string)
+    query = "SELECT movie_id,title,year,genre,duration FROM movies WHERE lower(%s) LIKE lower('%s');"%(name_col, value)
+    with db.connect() as conn:
+        res = conn.execute(text(query)).fetchall()
+        final = {}
+        if len(res):
+            final['id']=res[0]['movie_id']
+            final['title']=res[0]['title']
+            final['year']=res[0]['year']
+            final['genre']=res[0]['genre']
+            final['duration']=res[0]['duration']
+        
+    return final
 
-# def get_directors_movie(movie_id):
-#     db = create_engine(db_string)
-#     query = "SELECT directors.id FROM directors JOIN manage ON directors.id = manage.director_id\
-#         JOIN movies ON manage.movie_id = movies.movie_id\
-#         WHERE movies.movie_id = %s ;"%(movie_id)
-#     with db.connect() as conn:
-#         res = conn.execute(text(query)).fetchall()
-#         if len(res):
-#             id = list(res)
-#         else:
-#             id = None
-#     return id
-
-# def get_countries_movie(movie_id):
-#     db = create_engine(db_string)
-#     query = "SELECT countries.id FROM countries JOIN come_from ON countries.id = come_from.country_id\
-#         JOIN movies ON come_from.movie_id = movies.movie_id\
-#         WHERE movies.movie_id = %s ;"%(movie_id)
-#     with db.connect() as conn:
-#         res = conn.execute(text(query)).fetchall()
-#         if len(res):
-#             id = list(res)
-#         else:
-#             id = None
-#     return id
+def get_info_movies_id(id_col, value):
+    db = create_engine(db_string)
+    query = "SELECT movie_id,title,year,genre,duration FROM movies WHERE %s=%s;"%(id_col, value)
+    with db.connect() as conn:
+        res = conn.execute(text(query)).fetchall()
+        final = {}
+        if len(res):
+            final['id']=res[0]['movie_id']
+            final['title']=res[0]['title']
+            final['year']=res[0]['year']
+            final['genre']=res[0]['genre']
+            final['duration']=res[0]['duration']
+        
+    return final
 
 def insert_table_id_name(table, id, name, value_id, value_name):
     db = create_engine(db_string)
@@ -106,5 +108,16 @@ def insert_movies(id_value, title_value, year_value, genre_value, duration_value
 def delete_values_table_id(table, id, value_id):
     db = create_engine(db_string)
     query = "DELETE FROM %s WHERE %s = %s;"%(table, id, value_id)
+    with db.connect() as conn:
+        conn.execute(text(query))
+
+def update_movies(id, title, year, genre, duration):
+    db = create_engine(db_string)
+    query = "UPDATE movies\
+        SET title = '%s',\
+        year = %s,\
+        genre = '%s',\
+        duration = %s\
+        WHERE movie_id = %s;"%(title, year, genre, duration, id)
     with db.connect() as conn:
         conn.execute(text(query))
