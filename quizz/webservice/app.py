@@ -66,7 +66,7 @@ def get_movie_id(id: int):
     json
         information about the movie
     '''
-    infos = crud.get_info_movies_id('movie_id', id)
+    infos = crud.get_info_movies_id(id)
     if infos:
         return jsonify(status="True",
         movie = infos)
@@ -88,7 +88,7 @@ def get_movie_title(title: str):
     json
         information about the movie
     '''
-    infos = crud.get_info_movies_name('title', title)
+    infos = crud.get_info_movies_name(title)
     if infos:
         return jsonify(status="True",
         movie = infos)

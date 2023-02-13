@@ -164,15 +164,13 @@ def get_name(table: str, id_col: str, name_col: str, value: int) -> str:
             name = None
     return name
 
-def get_info_movies_name(name_col: str, value: str) -> Dict:
+def get_info_movies_name(title: str) -> Dict:
     '''
     Get information about a movie from its name
 
     Parameters
     ----------
-    name_col: str
-        name of the title column in the table
-    value: str
+    title: str
         value for the title column
 
     Returns
@@ -190,7 +188,7 @@ def get_info_movies_name(name_col: str, value: str) -> Dict:
             JOIN directors ON manage.director_id = directors.id\
             JOIN come_from ON movies.movie_id = come_from.movie_id\
             JOIN countries ON come_from.country_id = countries.id\
-            WHERE lower(%s) LIKE lower('%s');"%(name_col, value)
+            WHERE lower(title) LIKE lower('%s');"%(title)
     
     with db.connect() as conn:
         res = conn.execute(text(query)).fetchall()
@@ -223,7 +221,7 @@ def get_info_movies_name(name_col: str, value: str) -> Dict:
             
     return final
 
-def get_info_movies_id(id_col: str, value: int) -> dict:
+def get_info_movies_id(id: int) -> dict:
     ###################################################
     # RÉCUPÉRER INFO FILM À PARTIR DE SON ID
     ###################################################
@@ -232,9 +230,7 @@ def get_info_movies_id(id_col: str, value: int) -> dict:
 
     Parameters
     ----------
-    id_col: str
-        name of the title column in the table
-    value: int
+    id: int
         value for the title column
 
     Returns
@@ -251,7 +247,7 @@ def get_info_movies_id(id_col: str, value: int) -> dict:
             JOIN directors ON manage.director_id = directors.id\
             JOIN come_from ON movies.movie_id = come_from.movie_id\
             JOIN countries ON come_from.country_id = countries.id\
-            WHERE movies.%s=%s;"%(id_col, value)
+            WHERE movies.movie_id=%s;"%(id)
     
     with db.connect() as conn:
         res = conn.execute(text(query)).fetchall()
