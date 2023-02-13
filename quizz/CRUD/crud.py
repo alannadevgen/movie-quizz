@@ -192,6 +192,9 @@ def get_info_movies_name(name_col: str, value: str) -> Dict:
     return final
 
 def get_info_movies_id(id_col: str, value: int) -> dict:
+    ###################################################
+    # RÉCUPÉRER INFO FILM À PARTIR DE SON ID
+    ###################################################
     '''
     Get information about a movie from its ID
 
@@ -245,6 +248,51 @@ def get_info_movies_id(id_col: str, value: int) -> dict:
                     final['countries'].append(elem['country'])
             
     return final
+
+def get_movies_actor_id(actor_id: int) -> dict:
+    ######################################################################
+    # RÉCUPÉRER FILMS DANS LESQUELS UN ACTEUR A JOUÉ (déterminé par son ID)
+    ######################################################################
+    '''
+    Get movies where an actor has played in
+
+    Parameters
+    ----------
+    actor_id: str
+        ID of the actor
+
+    Returns
+    -------
+    dict
+        movies
+    '''
+    db = create_engine(db_string)
+    query = "SELECT actors.id AS actor_id, actors.name AS actor, movies.movie_id AS movie_id,title FROM actors \
+        JOIN play ON actors.id = play.actor_id \
+        JOIN movies ON play.movie_id = movies.movie_id\
+        WHERE actors.id = %s;"%(actor_id)
+    
+    with db.connect() as conn:
+        res = conn.execute(text(query)).fetchall()
+        final = {}
+        if len(res):
+            final['movie_ids'] = []
+            final['titles'] = []
+
+            # add results directly when the field must contain only one element
+            final['actor_id']=res[0]['actor_id']
+            final['actor_name']=res[0]['actor']
+
+            # add results in a list when the field can contain more than one element
+            for elem in res:
+                if elem['movie_id'] not in final['movie_ids']:
+                    final['movie_ids'].append(elem['movie_id'])
+
+                if elem['title'] not in final['titles']:
+                    final['titles'].append(elem['title'])
+
+    return final
+
 
 def insert_table_id_name(table: str, id: str, name: str, value_id: int, value_name: str) -> None:
     '''
