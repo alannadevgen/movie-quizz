@@ -38,6 +38,38 @@ def new_id(table: str, id_col: str) -> int:
         new_id = int(res[0]['max']) + 1
     return new_id
 
+def get_random_id(table: str, id_col: str) -> int:
+    ###################################################
+    # RÉCUPÉRER ID ACTEUR OU ID MOVIE ALÉATOIREMENT
+    # Mettre table="movies" et id_col="movie_id" pour
+    # film aléatoire
+    # Mettre table="actors" et id_col="id" pour
+    # acteur aléatoire
+    ###################################################
+    '''
+    Select a random ID of a table
+
+    Parameters
+    ----------
+    table : str
+        name of the table where to create the new ID
+    id_col: str
+        name of the ID column in the table
+
+    Returns
+    -------
+    int
+        random ID
+    '''
+    db = create_engine(db_string)
+    
+    query = "SELECT %s AS random FROM %s ORDER BY RANDOM() LIMIT 1;"%(id_col, table)
+    with db.connect() as conn:
+        res = conn.execute(text(query)).fetchall()
+        random_id = int(res[0]['random'])
+    return random_id
+
+
 def get_id(table: str, id_col: str, name_col: str, value: str) -> int:
     '''
     Get the ID of a value from its name
