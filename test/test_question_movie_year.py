@@ -23,3 +23,4 @@ class TestQuestionMovieYear(TestCase):
         self.assertIsInstance(question, QuestionMovieYear)
         self.assertEqual(result, "When was Blade Runner released?")
         self.assertEqual(correct_answer, 1982)
+        self.assertEqual(question.question_type, "movie year")
