@@ -58,6 +58,7 @@ def create_movie():
 	"directors": ["Charlie"]
     }
     '''
+    title = None
     countries_id = []
     actors_id = []
     directors_id = []
@@ -88,7 +89,7 @@ def create_movie():
                     crud.insert_table_id_name("directors", 'id', "name", id, director)
                 directors_id.append(id)
 
-        if 'movie' in list(res.keys()):
+        if 'movie' in list(res.keys()) and countries_id and actors_id and directors_id:
             # create a new movie even if the movie already exists (POST)
             movie_id = crud.new_id("movies", "movie_id")
             if 'title' in res['movie'] and 'year' in res['movie'] and 'genre'\
@@ -100,14 +101,14 @@ def create_movie():
                 duration = movie['duration']
                 crud.insert_movies(movie_id, title, year, genre, duration)
         
-        for id in countries_id:
-             crud.insert_table_id_id("come_from", 'movie_id', "country_id", movie_id, id)
-        
-        for id in actors_id:
-             crud.insert_table_id_id("play", 'movie_id', "actor_id", movie_id, id)
+            for id in countries_id:
+                crud.insert_table_id_id("come_from", 'movie_id', "country_id", movie_id, id)
+            
+            for id in actors_id:
+                crud.insert_table_id_id("play", 'movie_id', "actor_id", movie_id, id)
 
-        for id in directors_id:
-             crud.insert_table_id_id("manage", 'movie_id', "director_id", movie_id, id)
+            for id in directors_id:
+                crud.insert_table_id_id("manage", 'movie_id', "director_id", movie_id, id)
         
         if title:
             final = {}
@@ -123,6 +124,7 @@ def create_movie():
 def update_movie():
     '''
     '''
+    title = None
     countries_id = []
     actors_id = []
     directors_id = []
@@ -153,7 +155,7 @@ def update_movie():
                     crud.insert_table_id_name("directors", 'id', "name", id, director)
                 directors_id.append(id)
 
-        if 'movie' in list(res.keys()):
+        if 'movie' in list(res.keys()) and countries_id and actors_id and directors_id:
             if 'title' in res['movie'] and 'year' in res['movie'] and 'genre'\
                 in res['movie'] and 'duration' in res['movie']:
                 movie = res['movie']
