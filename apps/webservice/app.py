@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-from CRUD import crud
+import crud
 
 app = Flask(__name__)
 

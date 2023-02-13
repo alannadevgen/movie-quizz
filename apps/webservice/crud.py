@@ -38,37 +38,6 @@ def new_id(table: str, id_col: str) -> int:
         new_id = int(res[0]['max']) + 1
     return new_id
 
-def get_random_id(table: str, id_col: str) -> int:
-    ###################################################
-    # RÉCUPÉRER ID ACTEUR OU ID MOVIE ALÉATOIREMENT
-    # Mettre table="movies" et id_col="movie_id" pour
-    # film aléatoire
-    # Mettre table="actors" et id_col="id" pour
-    # acteur aléatoire
-    ###################################################
-    '''
-    Select a random ID of a table
-
-    Parameters
-    ----------
-    table : str
-        name of the table where to create the new ID
-    id_col: str
-        name of the ID column in the table
-
-    Returns
-    -------
-    int
-        random ID
-    '''
-    db = create_engine(db_string)
-    
-    query = "SELECT %s AS random FROM %s ORDER BY RANDOM() LIMIT 1;"%(id_col, table)
-    with db.connect() as conn:
-        res = conn.execute(text(query)).fetchall()
-        random_id = int(res[0]['random'])
-    return random_id
-
 
 def get_id(table: str, id_col: str, name_col: str, value: str) -> int:
     '''
@@ -276,51 +245,6 @@ def get_info_movies_id(id: int) -> dict:
                     final['countries'].append(elem['country'])
             
     return final
-
-def get_movies_actor_id(actor_id: int) -> dict:
-    ######################################################################
-    # RÉCUPÉRER FILMS DANS LESQUELS UN ACTEUR A JOUÉ (déterminé par son ID)
-    ######################################################################
-    '''
-    Get movies where an actor has played in
-
-    Parameters
-    ----------
-    actor_id: str
-        ID of the actor
-
-    Returns
-    -------
-    dict
-        movies
-    '''
-    db = create_engine(db_string)
-    query = "SELECT actors.id AS actor_id, actors.name AS actor, movies.movie_id AS movie_id,title FROM actors \
-        JOIN play ON actors.id = play.actor_id \
-        JOIN movies ON play.movie_id = movies.movie_id\
-        WHERE actors.id = %s;"%(actor_id)
-    
-    with db.connect() as conn:
-        res = conn.execute(text(query)).fetchall()
-        final = {}
-        if len(res):
-            final['movie_ids'] = []
-            final['titles'] = []
-
-            # add results directly when the field must contain only one element
-            final['actor_id']=res[0]['actor_id']
-            final['actor_name']=res[0]['actor']
-
-            # add results in a list when the field can contain more than one element
-            for elem in res:
-                if elem['movie_id'] not in final['movie_ids']:
-                    final['movie_ids'].append(elem['movie_id'])
-
-                if elem['title'] not in final['titles']:
-                    final['titles'].append(elem['title'])
-
-    return final
-
 
 def insert_table_id_name(table: str, id: str, name: str, value_id: int, value_name: str) -> None:
     '''

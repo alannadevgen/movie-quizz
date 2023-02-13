@@ -1,15 +1,22 @@
 version: "3.9"
 services:
-  app :
+  app-webservice :
     ports:
     - "80:80"
     depends_on:
     - db
-    build: ./quizz/
+    build: ./apps/webservice
+  app-quizz :
+    depends_on:
+    - db
+    build: ./apps/quizz
+    stdin_open: true
+    tty: true
   db:
     ports:
     - "5432:5432"
     env_file:
-    - quizz/.env
+    - apps/quizz/.env
+    - apps/webservice/.env
     build: ./database/
     

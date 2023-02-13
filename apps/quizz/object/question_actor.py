@@ -1,5 +1,5 @@
-from quizz.object.abstract_question import AbstractQuestion
-
+from object.abstract_question import AbstractQuestion
+import dao
 
 class QuestionActor(AbstractQuestion):
     def __init__(self, actor_id) -> None:

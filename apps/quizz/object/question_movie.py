@@ -1,4 +1,4 @@
-from quizz.object.abstract_question import AbstractQuestion
+from object.abstract_question import AbstractQuestion
 
 
 class QuestionMovie(AbstractQuestion):

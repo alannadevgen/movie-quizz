@@ -1,8 +1,8 @@
-from quizz.object.abstract_question import AbstractQuestion
-from quizz.object.question_movie import QuestionMovie
+from object.abstract_question import AbstractQuestion
+from object.question_movie import QuestionMovie
 
 
-class QuestionMovieGenre(QuestionMovie, AbstractQuestion):
+class QuestionMovieYear(QuestionMovie, AbstractQuestion):
     def __init__(
             self,
             movie_id,
@@ -26,10 +26,10 @@ class QuestionMovieGenre(QuestionMovie, AbstractQuestion):
             public_vote,
             total_votes
         )
-        self.question_type = "movie genre"
+        self.question_type = "movie year"
 
     def display_question(self):
-        return f"What is the main genre of the film {self.title}?"
+        return f"When was {self.title} released?"
 
     def get_correct_answer(self):
-        return self.genre
+        return self.year

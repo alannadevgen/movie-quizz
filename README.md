@@ -7,7 +7,7 @@ The aim of this project is to create a quizz with the following requirements: at
 ```python 
 git clone https://github.com/alannagenin/movie-quizz.git
 cd movie-quizz
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 docker-compose up --build
 ```

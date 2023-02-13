@@ -1,5 +1,5 @@
 from unittest import TestCase
-from quizz.object.question_movie_genre import QuestionMovieGenre
+from apps.quizz.object.question_movie_genre import QuestionMovieGenre
 
 
 class TestQuestionMovieYear(TestCase):
