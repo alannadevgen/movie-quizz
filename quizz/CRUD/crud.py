@@ -54,33 +54,95 @@ def get_name(table, id_col, name_col, value):
 
 def get_info_movies_name(name_col, value):
     db = create_engine(db_string)
-    query = "SELECT movie_id,title,year,genre,duration FROM movies WHERE lower(%s) LIKE lower('%s');"%(name_col, value)
+    query = "SELECT movies.movie_id AS movie_id,title,year,genre,duration,actors.name AS actor, directors.name AS director, countries.name AS country\
+         FROM actors\
+            JOIN play ON actors.id = play.actor_id \
+            JOIN movies ON play.movie_id = movies.movie_id\
+            JOIN manage ON movies.movie_id = manage.movie_id\
+            JOIN directors ON manage.director_id = directors.id\
+            JOIN come_from ON movies.movie_id = come_from.movie_id\
+            JOIN countries ON come_from.country_id = countries.id\
+            WHERE lower(%s) LIKE lower('%s');"%(name_col, value)
+    
     with db.connect() as conn:
         res = conn.execute(text(query)).fetchall()
         final = {}
         if len(res):
-            final['id']=res[0]['movie_id']
+            final['actors'] = []
+            final['directors'] = []
+            final['countries'] = []
+            final['ids']=[]
             final['title']=res[0]['title']
             final['year']=res[0]['year']
             final['genre']=res[0]['genre']
             final['duration']=res[0]['duration']
-        
+
+        for elem in res:
+            if elem['actor'] not in final['actors']:
+                final['actors'].append(elem['actor'])
+
+            if elem['director'] not in final['directors']:
+                final['directors'].append(elem['director'])
+
+            if elem['country'] not in final['countries']:
+                final['countries'].append(elem['country'])
+
+            if elem['movie_id'] not in final['ids']:
+                final['ids'].append(elem['movie_id'])
+            
     return final
 
 def get_info_movies_id(id_col, value):
     db = create_engine(db_string)
-    query = "SELECT movie_id,title,year,genre,duration FROM movies WHERE %s=%s;"%(id_col, value)
+    query = "SELECT movies.movie_id AS movie_id,title,year,genre,duration,actors.name AS actor, directors.name AS director, countries.name AS country\
+         FROM actors\
+            JOIN play ON actors.id = play.actor_id \
+            JOIN movies ON play.movie_id = movies.movie_id\
+            JOIN manage ON movies.movie_id = manage.movie_id\
+            JOIN directors ON manage.director_id = directors.id\
+            JOIN come_from ON movies.movie_id = come_from.movie_id\
+            JOIN countries ON come_from.country_id = countries.id\
+            WHERE movies.%s=%s;"%(id_col, value)
+    
     with db.connect() as conn:
         res = conn.execute(text(query)).fetchall()
         final = {}
         if len(res):
+            final['actors'] = []
+            final['directors'] = []
+            final['countries'] = []
             final['id']=res[0]['movie_id']
             final['title']=res[0]['title']
             final['year']=res[0]['year']
             final['genre']=res[0]['genre']
             final['duration']=res[0]['duration']
-        
+
+        for elem in res:
+            if elem['actor'] not in final['actors']:
+                final['actors'].append(elem['actor'])
+
+            if elem['director'] not in final['directors']:
+                final['directors'].append(elem['director'])
+
+            if elem['country'] not in final['countries']:
+                final['countries'].append(elem['country'])
+            
     return final
+
+# def get_info_movies_id(id_col, value):
+#     db = create_engine(db_string)
+#     query = "SELECT movie_id,title,year,genre,duration FROM movies WHERE %s=%s;"%(id_col, value)
+#     with db.connect() as conn:
+#         res = conn.execute(text(query)).fetchall()
+#         final = {}
+#         if len(res):
+#             final['id']=res[0]['movie_id']
+#             final['title']=res[0]['title']
+#             final['year']=res[0]['year']
+#             final['genre']=res[0]['genre']
+#             final['duration']=res[0]['duration']
+        
+#     return final
 
 def insert_table_id_name(table, id, name, value_id, value_name):
     db = create_engine(db_string)
