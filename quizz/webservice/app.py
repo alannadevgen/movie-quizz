@@ -5,7 +5,20 @@ app = Flask(__name__)
 
 
 @app.route('/api/v1/actor/id/<id>', methods=['GET'])
-def get_actor_id(id):
+def get_actor_id(id: int):
+    '''
+    Get information about an actor with with his ID
+
+    Parameters
+    ----------
+    id: int
+        ID of the actor
+
+    Returns
+    -------
+    json
+        information about the actor
+    '''
     name = crud.get_name("actors", "id", "name", id)
     final = {}
     if name:
@@ -16,7 +29,20 @@ def get_actor_id(id):
 
 
 @app.route('/api/v1/actor/name/<name>', methods=['GET'])
-def get_actor_name(name):
+def get_actor_name(name: str):
+    '''
+    Get information about an actor with with his name
+
+    Parameters
+    ----------
+    name: str
+        name of the actor
+
+    Returns
+    -------
+    json
+        information about the actor
+    '''
     id = crud.get_id("actors", "id", "name", name)
     final = {}
     if id:
@@ -26,7 +52,20 @@ def get_actor_name(name):
     return jsonify(status="False")
 
 @app.route('/api/v1/movie/id/<id>', methods=['GET'])
-def get_movie_id(id):
+def get_movie_id(id: int):
+    '''
+    Get information about a movie with its ID
+
+    Parameters
+    ----------
+    id: int
+        ID of the movie
+
+    Returns
+    -------
+    json
+        information about the movie
+    '''
     infos = crud.get_info_movies_id('movie_id', id)
     if infos:
         return jsonify(status="True",
@@ -35,7 +74,20 @@ def get_movie_id(id):
 
 
 @app.route('/api/v1/movie/title/<title>', methods=['GET'])
-def get_movie_title(title):
+def get_movie_title(title: str):
+    '''
+    Get information about a movie with its title
+
+    Parameters
+    ----------
+    title: str
+        title of the movie
+
+    Returns
+    -------
+    json
+        information about the movie
+    '''
     infos = crud.get_info_movies_name('title', title)
     if infos:
         return jsonify(status="True",
@@ -45,7 +97,9 @@ def get_movie_title(title):
 @app.route('/api/v1/movie', methods=['POST'])
 def create_movie():
     '''
-    POST request example (json body to put in INSOMNIA or POSTMAN)
+    Create a movie based on information given in the json body
+
+    Example for the json body:
     {
 	"movie": {
 		"title": "Funny koalas",
@@ -57,6 +111,11 @@ def create_movie():
 	"actors": ["Alice", "Bob"],
 	"directors": ["Charlie"]
     }
+
+    Returns
+    -------
+    json
+        status (indicates if the creation has been done)
     '''
     title = None
     countries_id = []
@@ -123,6 +182,25 @@ def create_movie():
 @app.route('/api/v1/movie', methods=['PUT'])
 def update_movie():
     '''
+    Create or update a movie based on information given in the json body
+
+    Example for the json body:
+    {
+	"movie": {
+		"title": "Funny koalas",
+		"year": 2023,
+		"genre": "Comedy",
+		"duration": 90
+	},
+	"countries": ["Australia"],
+	"actors": ["Alice", "Bob"],
+	"directors": ["Charlie"]
+    }
+
+    Returns
+    -------
+    json
+        status (indicates if the creation/update has been done)
     '''
     title = None
     countries_id = []
@@ -212,18 +290,30 @@ def update_movie():
 
 
 @app.route('/api/v1/movie/<title>', methods=['DELETE'])
-def delete_movie(title):
+def delete_movie(title: str):
     '''
+    Delete a movie defined by its title
+
+    Parameters
+    ----------
+    title: str
+        title of the movie to delete
+
+    Returns
+    -------
+    json
+        status (indicates if the deletion has been done)
     '''
+    # retrieve all ids of a movie defined by its title
     movie_ids = crud.get_ids("movies", "movie_id", "title", title)
     if movie_ids:
+        # delete movies using all the IDs associated with the movie
         for movie_id in movie_ids:
             # delete using movie_id
             crud.delete_values_table_id("come_from", "movie_id", movie_id)
             crud.delete_values_table_id("play", "movie_id", movie_id)
             crud.delete_values_table_id("manage", "movie_id", movie_id)
             crud.delete_values_table_id("movies", "movie_id", movie_id)
-
         
         movie_id = crud.get_id('movies', 'movie_id', 'title', title)
         if not movie_id:
