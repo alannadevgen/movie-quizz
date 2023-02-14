@@ -19,7 +19,7 @@ def get_actor_id(id: int):
     json
         information about the actor
     '''
-    name = crud.get_name("actors", "id", "name", id)
+    name = crud.get_name("actors", "actor_id", "name", id)
     final = {}
     if name:
         final['name'] = name
@@ -43,7 +43,7 @@ def get_actor_name(name: str):
     json
         information about the actor
     '''
-    id = crud.get_id("actors", "id", "name", name)
+    id = crud.get_id("actors", "actor_id", "name", name)
     final = {}
     if id:
         final['id'] = id
@@ -126,26 +126,26 @@ def create_movie():
     if res:
         if 'countries' in list(res.keys()):
             for country in res['countries']:
-                id = crud.get_id('countries', 'id', 'name', country)
+                id = crud.get_id('countries', 'country_id', 'name', country)
                 if not id:
-                    id = crud.new_id("countries", "id")
-                    crud.insert_table_id_name("countries", 'id', "name", id, country)
+                    id = crud.new_id("countries", "country_id")
+                    crud.insert_table_id_name("countries", 'country_id', "name", id, country)
                 countries_id.append(id)
 
         if 'actors' in list(res.keys()):
             for actor in res['actors']:
-                id = crud.get_id('actors', 'id', 'name', actor)
+                id = crud.get_id('actors', 'actor_id', 'name', actor)
                 if not id:
-                    id = crud.new_id("actors", "id")
-                    crud.insert_table_id_name("actors", 'id', "name", id, actor)
+                    id = crud.new_id("actors", "actor_id")
+                    crud.insert_table_id_name("actors", 'actor_id', "name", id, actor)
                 actors_id.append(id)
 
         if 'directors' in list(res.keys()):
             for director in res['directors']:
-                id = crud.get_id('directors', 'id', 'name', director)
+                id = crud.get_id('directors', 'director_id', 'name', director)
                 if not id:
-                    id = crud.new_id("directors", "id")
-                    crud.insert_table_id_name("directors", 'id', "name", id, director)
+                    id = crud.new_id("directors", "director_id")
+                    crud.insert_table_id_name("directors", 'director_id', "name", id, director)
                 directors_id.append(id)
 
         if 'movie' in list(res.keys()) and countries_id and actors_id and directors_id:
@@ -211,26 +211,26 @@ def update_movie():
     if res:
         if 'countries' in list(res.keys()):
             for country in res['countries']:
-                id = crud.get_id('countries', 'id', 'name', country)
+                id = crud.get_id('countries', 'country_id', 'name', country)
                 if not id:
-                    id = crud.new_id("countries", "id")
-                    crud.insert_table_id_name("countries", 'id', "name", id, country)
+                    id = crud.new_id("countries", "country_id")
+                    crud.insert_table_id_name("countries", 'country_id', "name", id, country)
                 countries_id.append(id)
 
         if 'actors' in list(res.keys()):
             for actor in res['actors']:
-                id = crud.get_id('actors', 'id', 'name', actor)
+                id = crud.get_id('actors', 'actor_id', 'name', actor)
                 if not id:
-                    id = crud.new_id("actors", "id")
-                    crud.insert_table_id_name("actors", 'id', "name", id, actor)
+                    id = crud.new_id("actors", "actor_id")
+                    crud.insert_table_id_name("actors", 'actor_id', "name", id, actor)
                 actors_id.append(id)
 
         if 'directors' in list(res.keys()):
             for director in res['directors']:
-                id = crud.get_id('directors', 'id', 'name', director)
+                id = crud.get_id('directors', 'director_id', 'name', director)
                 if not id:
-                    id = crud.new_id("directors", "id")
-                    crud.insert_table_id_name("directors", 'id', "name", id, director)
+                    id = crud.new_id("directors", "director_id")
+                    crud.insert_table_id_name("directors", 'director_id', "name", id, director)
                 directors_id.append(id)
 
         if 'movie' in list(res.keys()) and countries_id and actors_id and directors_id:

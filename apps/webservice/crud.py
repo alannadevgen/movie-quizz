@@ -151,12 +151,12 @@ def get_info_movies_name(title: str) -> Dict:
     # query to select all information about movies
     query = "SELECT movies.movie_id AS movie_id,title,year,genre,duration,actors.name AS actor, directors.name AS director, countries.name AS country\
          FROM actors\
-            JOIN play ON actors.id = play.actor_id \
+            JOIN play ON actors.actor_id = play.actor_id \
             JOIN movies ON play.movie_id = movies.movie_id\
             JOIN manage ON movies.movie_id = manage.movie_id\
-            JOIN directors ON manage.director_id = directors.id\
+            JOIN directors ON manage.director_id = directors.director_id\
             JOIN come_from ON movies.movie_id = come_from.movie_id\
-            JOIN countries ON come_from.country_id = countries.id\
+            JOIN countries ON come_from.country_id = countries.country_id\
             WHERE lower(title) LIKE lower('%s');"%(title.replace("'", "''"))
     
     with db.connect() as conn:
@@ -210,12 +210,12 @@ def get_info_movies_id(id: int) -> dict:
     db = create_engine(db_string)
     query = "SELECT movies.movie_id AS movie_id,title,year,genre,duration,actors.name AS actor, directors.name AS director, countries.name AS country\
          FROM actors\
-            JOIN play ON actors.id = play.actor_id \
+            JOIN play ON actors.actor_id = play.actor_id \
             JOIN movies ON play.movie_id = movies.movie_id\
             JOIN manage ON movies.movie_id = manage.movie_id\
-            JOIN directors ON manage.director_id = directors.id\
+            JOIN directors ON manage.director_id = directors.director_id\
             JOIN come_from ON movies.movie_id = come_from.movie_id\
-            JOIN countries ON come_from.country_id = countries.id\
+            JOIN countries ON come_from.country_id = countries.country_id\
             WHERE movies.movie_id=%s;"%(id)
     
     with db.connect() as conn:
