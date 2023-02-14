@@ -1,31 +1,25 @@
-from object.abstract_question import AbstractQuestion
+from apps.quizz.object.abstract_question import AbstractQuestion
 import random
 import dao
 
 class QuestionActor(AbstractQuestion):
     def __init__(self) -> None:
-        random_id = dao.get_random_id("actors", "id")
+        random_id = dao.get_random_id("actors", "actor_id")
         infos_actor = dao.get_movies_actor_id(random_id)
-        actor_name = infos_actor['actor_name']
-        title = random.sample(infos_actor['titles'], 1)[0]
-        self.actor_name = actor_name
-        self.title = title
+        self.actor_name = infos_actor['actor_name']
+        self.title = random.sample(infos_actor['titles'], 1)[0]
         self.correct_letter = None
+        self.incorrect_answers = []
+        self.question_type = "actor"
     
     def display_question(self):
-        letters = ['A', 'B', 'C', 'D']
-        
-        question = f"In which movie did {self.actor_name} play ?\n"
-        answers = dao.random_bad_answers("title", self.title)
-        answers.append(self.title)
-        random.shuffle(answers)
-
-        index = answers.index(self.title)
-        self.correct_letter = letters[index]
-
-        complete_question = question + f"A {answers[0]}\nB {answers[1]}\nC {answers[2]}\nD {answers[3]}\n"
-        
-        return complete_question
+        return f"In which movie did {self.actor_name} play ?\n"
 
     def get_correct_answer(self):
-        return self.correct_letter
+        return self.title
+
+    def get_incorrect_answers(self):
+        '''
+        Generate random answers for the question
+        '''
+        return dao.random_bad_answers(name_col="title", true_value=self.title)
