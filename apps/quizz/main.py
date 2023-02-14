@@ -1,11 +1,13 @@
-from object.question_movie_genre import QuestionMovieGenre
+from object.question_factory import QuestionFactory
+
 
 nb_questions = input('How many questions do you want ? ')
 
 nb_correct_answers = 0
 for num_question in range(int(nb_questions)):
-    print(f'\n----- Question {num_question+1} ------')
-    question = QuestionMovieGenre()
+    print(f'\n---------- Question {num_question+1} -----------')
+    question_factory = QuestionFactory()
+    question = question_factory.instanciate_question()
     res_letter = input(question.display_full_question())
 
     correct_letter = question.get_correct_letter()
@@ -16,4 +18,4 @@ for num_question in range(int(nb_questions)):
     else:
         nb_correct_answers += 1
         print('Correct!\n')
-print(f'You got {nb_correct_answers} correct anwsers!\n')
+print(f'You got {nb_correct_answers} correct anwser(s)!\n')
