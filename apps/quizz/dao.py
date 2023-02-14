@@ -102,6 +102,40 @@ def get_info_movies_id(id: int) -> dict:
             
     return final
 
+def random_bad_answers(name_col: str, true_value: str) -> list:
+    ######################################################################
+    # TIRER RÉPONSES ALÉATOIRES NON ÉGALES À TRUE_VALUE
+    ######################################################################
+    '''
+    Returns random answers different of true_value
+
+    Parameters
+    ----------
+    name_col: str
+        name of the movie column where select random values
+    true_value: str
+        true answer to the question
+
+    Returns
+    -------
+    list
+        bad answers
+    '''
+    db = create_engine(db_string)
+    query = "SELECT %s FROM movies WHERE lower(%s) != lower('%s')\
+        ORDER BY RANDOM() LIMIT 3;"%(name_col, name_col, true_value.replace("'", "''"))
+    
+    with db.connect() as conn:
+        res = conn.execute(text(query)).fetchall()
+        bad_answers = []
+        if len(res):
+            for elem in res:
+                if elem[name_col] not in bad_answers:
+                    bad_answers.append(elem[name_col])
+
+    return bad_answers
+
+
 def get_movies_actor_id(actor_id: int) -> dict:
     ######################################################################
     # RÉCUPÉRER FILMS DANS LESQUELS UN ACTEUR A JOUÉ (déterminé par son ID)
