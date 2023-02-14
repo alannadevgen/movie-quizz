@@ -5,17 +5,10 @@ from apps.quizz.object.question_movie_genre import QuestionMovieGenre
 class TestQuestionMovieYear(TestCase):
     def test_question_movie_genre(self):
         # GIVEN
-        question = QuestionMovieGenre(
-            movie_id=10623,
-            title='Blade Runner',
-            year=1982,
-            genre='Fantasy',
-            duration=124,
-            avg_vote=8.9,
-            critics_vote=9.02,
-            public_vote=9.0,
-            total_votes=843
-        )
+        question = QuestionMovieGenre()
+        question.title='Blade Runner'
+        question.year=1982
+        question.genre='Fantasy'
         # WHEN
         result = question.display_question()
         correct_answer = question.get_correct_answer()
