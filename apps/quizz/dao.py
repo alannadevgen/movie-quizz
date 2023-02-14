@@ -122,8 +122,9 @@ def random_bad_answers(name_col: str, true_value: str) -> list:
         bad answers
     '''
     db = create_engine(db_string)
-    query = "SELECT %s FROM movies WHERE lower(%s) != lower('%s')\
-        ORDER BY RANDOM() LIMIT 3;"%(name_col, name_col, true_value.replace("'", "''"))
+    query = "SELECT * FROM \
+        (SELECT DISTINCT(%s) FROM movies WHERE lower(%s) != lower('%s')) AS distinct_genre\
+            ORDER BY RANDOM() LIMIT 3;"%(name_col, name_col, true_value.replace("'", "''"))
     
     with db.connect() as conn:
         res = conn.execute(text(query)).fetchall()
