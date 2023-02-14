@@ -14,7 +14,7 @@ class QuestionMovieGenre(QuestionMovie, AbstractQuestion):
         self.question_type = "movie genre"
 
     def display_question(self):
-        return f"What is the main genre of the film {self.title}?"
+        return f"What is the main genre of the film {self.title}?\n"
 
     def get_correct_answer(self):
         return self.genre
