@@ -9,18 +9,25 @@ git clone https://github.com/alannagenin/movie-quizz.git
 cd movie-quizz
 python3 -m venv venv
 source venv/bin/activate
-docker-compose up --build
+
+# build and run in deamon (CRUD operations possible on the API)
+docker-compose up --d --build
+
+# launch the quizz
+docker-compose exec app-quizz bash
+python main.py
+
+# stop and remove all containers
+docker stop webservice
+docker stop quizz
+docker stop database
+docker-compose rm
 ```
 
-**Create a .env file in quizz folder containing:**
+**Create a .env file in apps/quizz and apps/webservice folders containing:**
 ```.env
 POSTGRES_USER=<my_user>
 POSTGRES_PASSWORD=<my_password>
-```
-
-**Launch the app:**
-```python 
-docker-compose up --build
 ```
 
 ## Contributors
