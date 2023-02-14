@@ -136,6 +136,62 @@ def random_bad_answers(name_col: str, true_value: str) -> list:
 
     return bad_answers
 
+def random_bad_answers_countries(list_countries: str) -> list:
+    '''
+    Returns random answers different of list_countries
+
+    Parameters
+    ----------
+    list_countries : list
+        true answer to the question
+
+    Returns
+    -------
+    list
+        bad answers
+    '''
+    db = create_engine(db_string)
+    query = "SELECT name FROM countries \
+        WHERE lower(name) not in %s ORDER BY RANDOM() LIMIT 3;"%(str(list_countries).replace("[", "(").replace("]", ")"))
+    
+    with db.connect() as conn:
+        res = conn.execute(text(query)).fetchall()
+        bad_answers = []
+        if len(res):
+            for elem in res:
+                if elem["name"] not in bad_answers:
+                    bad_answers.append(elem["name"])
+
+    return bad_answers
+
+def random_bad_answers_directors(list_directors: str) -> list:
+    '''
+    Returns random answers different of list_directors
+
+    Parameters
+    ----------
+    list_directors : list
+        true answer to the question
+
+    Returns
+    -------
+    list
+        bad answers
+    '''
+    db = create_engine(db_string)
+    query = "SELECT name FROM directors \
+        WHERE lower(name) not in %s ORDER BY RANDOM() LIMIT 3;"%(str(list_directors).replace("[", "(").replace("]", ")"))
+    
+    with db.connect() as conn:
+        res = conn.execute(text(query)).fetchall()
+        bad_answers = []
+        if len(res):
+            for elem in res:
+                if elem["name"] not in bad_answers:
+                    bad_answers.append(elem["name"])
+
+    return bad_answers
+
 
 def random_bad_answers_int(name_col: str, true_value: str) -> list:
     '''
