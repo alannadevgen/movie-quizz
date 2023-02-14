@@ -60,7 +60,7 @@ def get_id(table: str, id_col: str, name_col: str, value: str) -> int:
         ID
     '''
     db = create_engine(db_string)
-    query = "SELECT %s FROM %s WHERE lower(%s) LIKE lower('%s');"%(id_col, table, name_col, value)
+    query = "SELECT %s FROM %s WHERE lower(%s) LIKE lower('%s');"%(id_col, table, name_col, value.replace("'", "''"))
     with db.connect() as conn:
         res = conn.execute(text(query)).fetchall()
         # check the name value is in the table
@@ -91,7 +91,7 @@ def get_ids(table: str, id_col: str, name_col: str, value: str) -> List:
         ID
     '''
     db = create_engine(db_string)
-    query = "SELECT %s FROM %s WHERE lower(%s) LIKE lower('%s');"%(id_col, table, name_col, value)
+    query = "SELECT %s FROM %s WHERE lower(%s) LIKE lower('%s');"%(id_col, table, name_col, value.replace("'", "''"))
     with db.connect() as conn:
         res = conn.execute(text(query)).fetchall()
         ids = []
@@ -157,7 +157,7 @@ def get_info_movies_name(title: str) -> Dict:
             JOIN directors ON manage.director_id = directors.id\
             JOIN come_from ON movies.movie_id = come_from.movie_id\
             JOIN countries ON come_from.country_id = countries.id\
-            WHERE lower(title) LIKE lower('%s');"%(title)
+            WHERE lower(title) LIKE lower('%s');"%(title.replace("'", "''"))
     
     with db.connect() as conn:
         res = conn.execute(text(query)).fetchall()
@@ -264,8 +264,8 @@ def insert_table_id_name(table: str, id: str, name: str, value_id: int, value_na
         value for the name column
     '''
     db = create_engine(db_string)
-    query = "INSERT INTO %s (%s,%s) VALUES \
-                        (%s,  '%s');"%(table, id, name, value_id, value_name)
+    query = "INSERT INTO %s (%s, %s) VALUES \
+                        (%s,  '%s');"%(table, id, name, value_id, value_name.replace("'", "''"))
     with db.connect() as conn:
         conn.execute(text(query))
 
@@ -313,7 +313,7 @@ def insert_movies(id: int, title: str, year: int, genre: str, duration: int) -> 
     db = create_engine(db_string)
     query = "INSERT INTO movies (movie_id,title,year,genre,duration,avg_vote,critics_vote,public_vote,total_votes) \
             VALUES (%s,  '%s', %s, '%s', %s, null, null, null, null);\
-            "%(id, title, year, genre, duration)
+            "%(id, title.replace("'", "''"), year, genre.replace("'", "''"), duration)
     with db.connect() as conn:
         conn.execute(text(query))
 
@@ -358,6 +358,6 @@ def update_movies(id: int, title: str, year: int, genre: str, duration: int) -> 
         year = %s,\
         genre = '%s',\
         duration = %s\
-        WHERE movie_id = %s;"%(title, year, genre, duration, id)
+        WHERE movie_id = %s;"%(title.replace("'", "''"), year, genre.replace("'", "''"), duration, id)
     with db.connect() as conn:
         conn.execute(text(query))
