@@ -137,6 +137,38 @@ def random_bad_answers(name_col: str, true_value: str) -> list:
     return bad_answers
 
 
+def random_bad_answers_int(name_col: str, true_value: str) -> list:
+    '''
+    Returns random answers different of true_value
+
+    Parameters
+    ----------
+    name_col: str
+        name of the movie column where select random values
+    true_value: str
+        true answer to the question
+
+    Returns
+    -------
+    list
+        bad answers
+    '''
+    db = create_engine(db_string)
+    query = "SELECT * FROM \
+        (SELECT DISTINCT(%s) FROM movies WHERE %s != %s) AS distinct_int\
+            ORDER BY RANDOM() LIMIT 3;"%(name_col, name_col, true_value)
+    
+    with db.connect() as conn:
+        res = conn.execute(text(query)).fetchall()
+        bad_answers = []
+        if len(res):
+            for elem in res:
+                if elem[name_col] not in bad_answers:
+                    bad_answers.append(elem[name_col])
+
+    return bad_answers
+
+
 def get_movies_actor_id(actor_id: int) -> dict:
     ######################################################################
     # RÉCUPÉRER FILMS DANS LESQUELS UN ACTEUR A JOUÉ (déterminé par son ID)
