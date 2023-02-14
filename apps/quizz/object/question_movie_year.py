@@ -33,3 +33,6 @@ class QuestionMovieYear(QuestionMovie, AbstractQuestion):
 
     def get_correct_answer(self):
         return self.year
+
+    def get_incorrect_answers(self):
+        return super().get_incorrect_answers()

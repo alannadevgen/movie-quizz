@@ -1,4 +1,4 @@
-from apps.quizz.object.abstract_question import AbstractQuestion
+from object.abstract_question import AbstractQuestion
 import random
 import dao
 

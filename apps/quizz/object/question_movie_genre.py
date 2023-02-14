@@ -1,6 +1,6 @@
-from apps.quizz.object.abstract_question import AbstractQuestion
-from apps.quizz.object.question_movie import QuestionMovie
-from apps.quizz import dao
+from object.abstract_question import AbstractQuestion
+from object.question_movie import QuestionMovie
+import dao
 
 
 class QuestionMovieGenre(QuestionMovie, AbstractQuestion):
