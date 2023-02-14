@@ -13,13 +13,19 @@ class QuestionActor(AbstractQuestion):
         self.question_type = "actor"
     
     def display_question(self):
-        return f"In which movie did {self.actor_name} play ?\n"
+        '''
+            Returns the question as it should be displayed in the quizz.
+        '''
+        return f"In which movie did {self.actor_name} play?\n"
 
     def get_correct_answer(self):
+        '''
+            Returns the correct answer.
+        '''
         return self.title
 
     def get_incorrect_answers(self):
         '''
-        Generate random answers for the question
+        Generate random answers for the question.
         '''
         return dao.random_bad_answers(name_col="title", true_value=self.title)

@@ -29,11 +29,12 @@ class AbstractQuestion(ABC):
 
     def display_full_question(self):
         letters = ['A', 'B', 'C', 'D']
+        # display question in terminal
         question = self.display_question()
+        # get all answers to question
         answers = self.get_all_answers()
-        print(answers)
-
+        # find correct answer
         index = answers.index(self.get_correct_answer())
         self.correct_letter = letters[index]
-
+        # return full output with question and answers
         return question + f"\nA {answers[0]}\nB {answers[1]}\nC {answers[2]}\nD {answers[3]}\n"
