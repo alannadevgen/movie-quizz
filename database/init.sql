@@ -11,40 +11,40 @@ public_vote NUMERIC,
 total_votes INT);
 
 CREATE TABLE actors (
-id INT NOT NULL PRIMARY KEY,
+actor_id INT NOT NULL PRIMARY KEY,
 name VARCHAR(500));
 
 CREATE TABLE directors (
-id INT NOT NULL PRIMARY KEY,
+director_id INT NOT NULL PRIMARY KEY,
 name VARCHAR(500));
 
 CREATE TABLE countries (
-id INT NOT NULL PRIMARY KEY,
+country_id INT NOT NULL PRIMARY KEY,
 name VARCHAR(500));
 
 CREATE TABLE play(
 movie_id INT,
 actor_id INT,
 CONSTRAINT fk_movie_id FOREIGN KEY(movie_id) REFERENCES movies(movie_id),
-CONSTRAINT fk_actor_id FOREIGN KEY(actor_id) REFERENCES actors(id)
+CONSTRAINT fk_actor_id FOREIGN KEY(actor_id) REFERENCES actors(actor_id)
 );
 
 CREATE TABLE manage(
 movie_id INT,
 director_id INT,
 CONSTRAINT fk_movie_id FOREIGN KEY(movie_id) REFERENCES movies(movie_id),
-CONSTRAINT fk_director_id FOREIGN KEY(director_id) REFERENCES directors(id)
+CONSTRAINT fk_director_id FOREIGN KEY(director_id) REFERENCES directors(director_id)
 );
 
 CREATE TABLE come_from(
 movie_id INT,
 country_id INT,
 CONSTRAINT fk_movie_id FOREIGN KEY(movie_id) REFERENCES movies(movie_id),
-CONSTRAINT fk_country_id FOREIGN KEY(country_id) REFERENCES countries(id)
+CONSTRAINT fk_country_id FOREIGN KEY(country_id) REFERENCES countries(country_id)
 );
 
 -- Insert values into tables 
-INSERT INTO actors (id, name) VALUES 
+INSERT INTO actors (actor_id, name) VALUES 
 (1, 'Abbas Nazeri'),
 (2, 'Abe Vigoda'),
 (3, 'Abed Abes'),
@@ -4834,7 +4834,7 @@ INSERT INTO actors (id, name) VALUES
 (4787, 'Éva Szabó'),
 (4788, 'Óscar Rodríguez'),
 (4789, 'Özgür Daniel Foster');
-INSERT INTO countries (id, name) VALUES 
+INSERT INTO countries (country_id, name) VALUES 
 (1, 'Algeria'),
 (2, 'Angola'),
 (3, 'Argentina'),
@@ -4894,7 +4894,7 @@ INSERT INTO countries (id, name) VALUES
 (57, 'United States'),
 (58, 'Venezuela'),
 (59, 'West Germany');
-INSERT INTO directors (id, name) VALUES 
+INSERT INTO directors (director_id, name) VALUES 
 (1, 'Abbas Kiarostami'),
 (2, 'Abel Ferrara'),
 (3, 'Abel Gance'),
