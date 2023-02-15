@@ -93,7 +93,7 @@ The following instruction build the project and runs it in daemon mode.
 docker-compose up --d --build
 ```
 
-### Quizz launch
+### Quizz launch
 
 Execute the app-quizz container and open a bash terminal:
 
