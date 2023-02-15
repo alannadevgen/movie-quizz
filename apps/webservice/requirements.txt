@@ -5,3 +5,4 @@ python-dotenv==0.20.0
 SQLAlchemy==1.4.46
 typing-extensions==3.7.4.3
 unittest2==1.1.0
+pytest==7.2.1
