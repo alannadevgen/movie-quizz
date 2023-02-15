@@ -95,7 +95,8 @@ docker-compose up --d --build
 
 ### Quizz launch
 
-Excecute the app-quizz container and open a bash terminal:
+Execute the app-quizz container and open a bash terminal:
+
 ```bash
 docker-compose exec app-quizz bash
 ```
@@ -106,15 +107,37 @@ Execute the following command into the bash terminal:
 python main.py
 ```
 
+### Tests
+
+**Test the quizz**
+
+```bash
+docker-compose exec app-quizz bash
+```
+
+Execute the following command into the bash terminal:
+
+```bash
+python -m unittest
+```
+
+**Test the API**
+
+```bash
+docker-compose exec app-webservice bash
+```
+
+Execute the following command into the bash terminal:
+
+```bash
+python -m pytest tests/
+```
+
 ### Deinstallation
 
 ```bash
-# stop containers
-docker stop webservice
-docker stop quizz
-docker stop database
-# remove them definitely
-docker-compose rm
+# stop and remove all containers definitely
+docker-compose rm -f -s
 ```
 
 ## Examples of requests to the API

@@ -1,4 +1,4 @@
-from test.conf_test import client
+from tests.conf_test import client
 
 
 # perform basic tests to check the API
