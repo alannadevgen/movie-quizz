@@ -1,5 +1,5 @@
 from unittest import TestCase
-from apps.quizz.object.question_movie_genre import QuestionMovieGenre
+from object.question_movie_genre import QuestionMovieGenre
 
 
 class TestQuestionMovieYear(TestCase):
@@ -14,6 +14,6 @@ class TestQuestionMovieYear(TestCase):
         correct_answer = question.get_correct_answer()
         # THEN
         self.assertIsInstance(question, QuestionMovieGenre)
-        self.assertEqual(result, "What is the main genre of the film Blade Runner?")
+        self.assertEqual(result, "What is the main genre of the film Blade Runner?\n")
         self.assertEqual(correct_answer, 'Fantasy')
         self.assertEqual(question.question_type, "movie genre")
