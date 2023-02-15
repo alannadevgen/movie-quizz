@@ -5,7 +5,7 @@ nb_questions = input('How many questions do you want ? ')
 
 nb_correct_answers = 0
 for num_question in range(int(nb_questions)):
-    print(f'\n---------- Question {num_question+1} -----------')
+    print(f'\n--------------------- Question {num_question+1} ----------------------\n')
     question_factory = QuestionFactory()
     question = question_factory.instanciate_question()
     res_letter = input(question.display_full_question())
