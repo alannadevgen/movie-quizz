@@ -2,9 +2,9 @@
 
 ## Description
 
-This project implements a Python quizz about movies. The application is composed of three elements: a PostgreSQL database, an API and a Python quizz. The complete application can be launched with Docker.
+This project implements a Python quizz about movies. The application consists of three elements: a PostgreSQL database, an API and a Python quizz. The whole application can be launched with Docker.
 
-The data used in the application come from https://www.kaggle.com/datasets/stefanoleone992/filmtv-movies-dataset and were originally scraped from the publicly available website https://www.filmtv.it.
+The data used in the application come from https://www.kaggle.com/datasets/stefanoleone992/filmtv-movies-dataset and were originally scraped from the public available website https://www.filmtv.it.
 
 ## Architecture
 
@@ -44,10 +44,10 @@ erDiagram
   movies }|--|{ countries : "come from"
   movies }|--|{ directors : "manage"
 ```
-Three associations are present in the database: *play*, *come from* and *manage*. Tables were created for each of them. For instance, the table play contains both the actor ID and the movie ID in order to join the table *actors* and the table *movies*. All instructions allowing to initialize the database (creation and filling of tables) are included into *database/init.sql* file. The Dockerfile in the *database* folder is used to create a Postgres container for the database. TCP port 5432 of the container is mapped to host port 5432.
+There are three associations in the database: ***play***, ***come from*** and ***manage***. Tables have been created for each of these associations. For example, the table ***play*** contains both the actor ID and the movie ID in order to join the ***actors*** the ***movies*** tables. All the instructions for initialising the database (creation and filling of tables) are included in the **database/init.sql** file. The Dockerfile in the ***database** folder is used to create a Postgres container for the database. TCP port 5432 of the container is mapped to host port 5432.
 
 ### API
-The API was deployed with Flask. Several endpoints were constructed in order to get information about movies and actors. It is also possible to add new movies, to modify existing ones or to delete some movies of the database. The file *apps/webservice/app.py* implements the API. The functions allowing to Create, Read, Update and Delete data were coded in the *apps/webservice/crud.py*. The Dockerfile in the *webservice* folder is used to create a Python docker container for the API. TCP port 80 of the container is mapped to host port 80. Thus, the API is available on the localhost on port 80.
+The API was implemented using *Flask*. Several endpoints were constructed in order to get information about movies and actors. It is also possible to add new movies, to modify existing ones or to delete some movies of the database. The file *apps/webservice/app.py* implements the API. The functions allowing to Create, Read, Update and Delete data were coded in the *apps/webservice/crud.py*. The Dockerfile in the *webservice* folder is used to create a Python docker container for the API. TCP port 80 of the container is mapped to host port 80. Thus, the API is available on the localhost on port 80.
 
 ### Quizz
 All modules and classes used to implement the quizz are located in the *quizz* folder. The *quizz/object* folder contains the core of the application. The "factory" design pattern was used to create questions for the quizz. Different subject are proposed to the user in the quizz:
