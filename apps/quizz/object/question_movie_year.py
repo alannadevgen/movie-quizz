@@ -3,8 +3,9 @@ import dao
 
 
 class QuestionMovieYear(AbstractQuestion):
-    def __init__(self) -> None:
-        random_id = dao.get_random_id("movies", "movie_id")
+    def __init__(self,random_id = None) -> None:
+        if random_id is None:
+            random_id = dao.get_random_id("movies", "movie_id")
         infos_movie = dao.get_info_movies_id(random_id)
         self.title = infos_movie['title']
         self.year = infos_movie['year']

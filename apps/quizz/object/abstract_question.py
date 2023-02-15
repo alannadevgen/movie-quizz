@@ -3,8 +3,8 @@ import random
 
 
 class AbstractQuestion(ABC):
-    def __init__(self) -> None:
-        pass
+    def __init__(self, random_id) -> None:
+        self.random_id = random_id
 
     @abstractmethod
     def display_question(self):
