@@ -1,6 +1,6 @@
 # Movie quizz :movie_camera:
 
-## Description
+## Description
 
 This project implements a Python quizz about movies. The application is composed of three elements: a PostgreSQL database, an API and a Python quizz. The complete application can be launched with Docker.
 
@@ -119,7 +119,7 @@ docker-compose rm
 
 ## Examples of requests to the API
 
-### GET (accessible from any navigator)
+###  GET (accessible from any navigator)
 
 - Information about an actor using his / her ID: **http://localhost/api/v1/actor/id/1**
 - Information about an actor using his / her name: **http://localhost/api/v1/actor/name/abe vigoda**
